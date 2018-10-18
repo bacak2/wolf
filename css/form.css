@@ -1,0 +1,133 @@
+div#div-super-form{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+
+
+[class*="super-form-span"] {
+    float: left;
+    margin: 0px;
+    
+}
+
+div#div-super-form [class*="super-form-span"]  div.super-form-label {
+ 
+}
+
+div#div-super-form [class*="super-form-span"]  div.super-form-label label{
+    font-size: small;
+    text-align: left;
+    float: left;
+}
+
+div#div-super-form [class*="super-form-span"] div.super-form-title{
+    font-size: large;
+    text-align: center;
+    margin-bottom: 16px;
+}
+div#div-super-form select {
+	color: #829094;
+	font-size: 9pt;
+	font-family: Tahoma, Helvetica, Geneva, Swiss, SunSans-Regular;
+	padding-left: 5px;
+}
+
+div#div-super-form [class*="super-form-span"] input[type='text'],
+div#div-super-form [class*="super-form-span"] input.pass,
+div#div-super-form [class*="super-form-span"] textarea,
+div#div-super-form [class*="super-form-span"] select{
+    color: #829094;
+    font-size: 9pt;
+    font-family: Tahoma, Helvetica, Geneva, Swiss, SunSans-Regular;
+    /* border: 1px solid #829094; 
+    margin: 4px 2px;*/
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    line-height: 21px;
+    height: 21px;
+}
+
+div#div-super-form [class*="super-form-span"] textarea{
+    height: 80px;
+}
+
+div#div-super-form [class*="super-form-span"] input[type='text'].data{
+    width: 80%;
+    text-align:right;
+}
+
+div#div-super-form [class*="super-form-span"] input[type='text']{
+    /*height: 16px;*/
+}
+
+div#div-super-form [class*="super-form-span"] div.super-form-div,
+div#div-super-form [class*="super-form-span"] div.super-form-div-dane{
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 8px;
+    font-weight: bold;    
+}
+
+div#div-super-form [class*="super-form-span"] div.super-form-div div.super-form-field{
+    margin: 0px;
+    border: 1px solid #829094;
+    padding: 2px;
+}
+
+div#div-super-form [class*="super-form-span"] div.super-form-div-dane div.super-form-field-dane{
+    margin: 0px;
+/*    border: 1px solid #829094;*/
+    padding: 2px;
+}
+
+div#div-super-form [class*="super-form-span"] input.readonly{
+	background-color: #ece9d8;
+}
+
+div#div-super-form [class*="super-form-span"] input.zapisz{
+    background: url("../images/zapisz.gif") no-repeat;
+    border: 0;
+    width: 60px;
+    display: inline;
+    vertical-align: middle;
+    margin-top: 1px;
+}
+
+.super-form-span1 { width: 100%}
+.super-form-span2 { width: 50%}
+.super-form-span3 { width: 33.333%}
+.super-form-span4 { width: 25%}
+.super-form-span5 { width: 20%}
+.super-form-span6 { width: 16.66%}
+.super-form-span7 { width: 14.2857%}
+.super-form-span8 { width: 12.5%}
+.super-form-span9 { width: 11.1111%}
+.super-form-span10 { width: 10%}
+.super-form-span11 { width: 9.09%}
+.super-form-span12 { width: 8.3333%}
+
+
+div.clear{
+    clear: both;
+    height:1px;
+}
+
+div#wygenerowane-haslo{
+    font-weight: bold;
+}
+
+
+form#koszyczek table,
+form#koszyczek table th,
+form#koszyczek table td,
+form#zamowienie table,
+form#zamowienie table th,
+form#zamowienie table td
+{
+    background-color: white;
+    border: none;
+}

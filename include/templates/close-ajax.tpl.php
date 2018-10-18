@@ -1,0 +1,1 @@
+<p style='text-align: right; margin: 0;'><a href='javascript:CloseAjax()'>X</a></p>

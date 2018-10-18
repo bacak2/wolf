@@ -1,0 +1,77 @@
+﻿
+----------------------- Page 1-----------------------
+
+                           
+
+ 
+
+                                                                    
+
+      
+
+     
+
+     
+
+     
+
+     
+
+                                                                         
+
+                                                                         
+
+                                                                         
+
+                                                                         
+
+                                                                         
+
+                                                                         
+
+                                                                         
+
+                                                                         
+
+                                                           
+
+                                                                         
+
+                                                                         
+
+                                                                         
+
+                                                                         
+
+     
+
+                                                                         
+
+                                                                         
+
+                                                                         
+
+                                                                         
+
+  24  Sprawdzic parametry spalin                          O            O 
+
+  25  Temp. spalin brutto                                     °C           °C 
+
+  26  Temp. powietrza                                         °C           °C 
+
+  27  Temp. spalin netto                                      °C           °C 
+
+    2)                                                        %            % 
+
+    2)                                                        %            % 
+
+                                                                            
+
+  31  Strata po stronie spalin                                %            % 
+
+      
+  
+  
+    Data 
+
+46                                                                 3061240_201309 

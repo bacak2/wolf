@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font: 12pt "Times New Roman";
+}
+.page {
+    width: 20cm;
+    min-height: 29.0cm;
+    padding: 0 3.0cm;
+    margin: 0 auto;
+    overflow: hidden;
+/*  
+    background-image: url(../public/test.jpg);
+    background-size: 21cm 29.7cm;
+    border: 1px solid green;
+*/
+}
+.subpage {
+    padding: 8.5cm 0px 0px 0px;
+    margin: 0px;
+ /*   border: 1px solid red;*/
+}
+
+.zaswiadcza_sie{
+    font-size: 22pt;
+    text-align: center;
+}
+
+.imie_nazwisko{
+    font-size: 28pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+.certyfikat_teks{
+    margin-top: 0.5cm;
+    overflow: hidden;
+    height: 12cm;
+    margin-bottom: 0.5cm;
+}
+
+
+.cert_stopka div.cert_stopka_line{
+    margin-bottom: 0.5cm;
+}
+.cert_stopka div.cert_stopka_line:last-child{
+    margin-top: 1cm;
+    margin-bottom: 0px;
+}
+
+div.cert_info{    
+    margin-left: 1cm;
+    width: 8cm;
+    float: left;
+}
+
+div.zatwierdzil{
+    border-top: 2px dotted #939292;
+    float: right;
+    margin-right: 0.5cm;
+    text-align: center;
+    width: 100px;
+    font-size: 10pt;
+}
+
+span.cert_number{
+    font-weight: bold;
+    font-size: 16pt;
+}
+@page {
+    size: A4;
+    margin: 0;
+    padding: 0;
+}
+@media print {
+    .page {
+        margin: 0;
+        border: initial;
+        border-radius: initial;
+        width: initial;
+        min-height: initial;
+        box-shadow: initial;
+        background: initial;
+        page-break-after: always;
+    }
+}
+
+
+.artplus{
+    font-size: 1px;
+    color: black;
+}
+
+div.artplus{
+    margin:0 auto;
+    width: 250px;
+    display: none;
+}
+
+p, li{
+    margin: 2px 0;
+}

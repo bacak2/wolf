@@ -1,0 +1,32 @@
+td.boki{
+    text-align: center;
+}
+div.filters-and-actions, div.szczegoly-table-div{
+    margin: 10px auto 20px 25px;
+}
+
+div.filters-and-actions p{
+    text-align: left;
+}
+
+#lewemenu span.expander{
+    padding-left: 40px;
+    background-position: 20px top;
+}
+
+tr.collapsed span.expander, tr.expanded span.expander{
+    padding-left: 40px;
+    background-position: 20px top;
+}
+
+td.calosc{
+    text-align: center;
+}
+
+div.sciezka, div.navigation_buttons{
+    text-align: left;
+}
+
+div.comment{
+    float: left;
+}

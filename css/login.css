@@ -1,0 +1,48 @@
+table#login{
+    width: 480px;
+    border-spacing: 0px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+table#login thead tr td.top{
+    border: 1px solid #000;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-top-left-radius: 10px;
+    -moz-border-top-right-radius: 10px;
+    width: auto;
+    height: auto;
+}
+
+table#login tbody tr td.middle{
+    border-left: 1px solid #ee1d25;
+    border-right: 1px solid #ee1d25;
+}
+
+table#login tbody tr td.login_bottom{
+    background-color: #ee1d25;
+    height: 16px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+}
+
+.logowanie { color: #000000; font-size: 10pt; font-family: Tahoma }
+.logowanie_dol { color: #000000; font-size: 9pt; font-family: Tahoma; text-align: left; }
+
+input[type="submit"].zaloguj{
+    padding: 4px;
+    background-color: #ee1d25;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    color: #FFF;
+    border: 1px solid #ce0d15;
+    float:none;
+}

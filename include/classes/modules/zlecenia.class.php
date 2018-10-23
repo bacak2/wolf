@@ -35,6 +35,10 @@ class ModulZestawienieZlecen extends ModulBazowy {
         public $CheckError = false;
         public $WymaganyRozruch = true;
         public $Type = false;
+    protected $allowedImportTypes;
+    protected $errors;
+    protected $columnsFormat;
+    protected $importTitle;
         
         
 	function __construct(&$Baza, $Uzytkownik, $Parametr, $Sciezka) {
@@ -68,7 +72,14 @@ class ModulZestawienieZlecen extends ModulBazowy {
 	    if(isset($_GET['akcja']) && $_GET['akcja'] == "dodawanie"){
                 $this->FiltersAndActionsWidth = true;
             }
-//            $this->Baza->EnableLog();
+
+        $this->allowedImportTypes = array('xls','xlsx' ,'ods');
+        $this->columnsFormat = '
+            <tr><td rowspan="2">Lp.</td><td colspan="2">Dane zainstalowanych urządzeń</td><td rowspan="2">Data uruchomienia kotłowni</td><td rowspan="2">Rodzaj gazu</td><td rowspan="2">Szczelnośc instalacji</td><td rowspan="2">Ciśnienie statyczne</td><td rowspan="2">Ciśnienie dynamiczne</td><td rowspan="2">Filtr gazu</td><td rowspan="2">Napięcie elektryczne</td><td colspan="4">Dane użytkownika</td></tr>
+            <tr><td>Urządzenie</td><td>Numer seryjny</td><td>Imię i Nazwisko</td><td>Adres</td><td>Telefon</td><td>e-mail</td></tr>
+            ';
+        $this->importTitle = 'uruchomienia';
+
 	}
         function PobierzListeElementow($Filtry = array()) {
             $Wyniki = array(
@@ -1150,5 +1161,52 @@ class ModulZestawienieZlecen extends ModulBazowy {
 
             $Formularz->WyswietlDane($Dane);
 	}
+
+	function putImportedElements(){
+        $serialNumberId = $this->Baza->GetLastInsertID();
+
+        //prepare and insert item
+        $dateToParse = $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(3, $rowNumber)->getValue();
+        preg_match_all('!\d+!', $dateToParse, $parsedDate);
+        $year = $parsedDate[0][2];
+        $month = $parsedDate[0][1];
+        $day = $parsedDate[0][0];
+        $happenedAt = "$year-$month-$day";
+        $happenedAt .= ' 00:00:00';
+
+        $clientName = $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(10, $rowNumber)->getValue();
+        $clientAddress = $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(11, $rowNumber)->getValue();
+        $clientPhone = $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(12, $rowNumber)->getValue();
+        $clientMail = $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(13, $rowNumber)->getValue();
+
+        $itemData = array(
+            'devices_id' => $deviceId,
+            'serial_number_id' => $serialNumberId,
+            'type' => 'ZeroSetupItem', //zerowe uruchomienie
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s"),
+            'happened_at' => $happenedAt,
+            'client_companyname' => '',
+            'client_firstname' => $clientName,
+            'client_surname' => '',
+            'client_street' => $clientAddress,
+            'client_address_number' => '',
+            'client_local_number' => '',
+            'client_postcode' => '',
+            'client_city' => '',
+            'client_phone' => $clientPhone,
+            'client_email' => $clientMail,
+            'no_warranty_description' => '',
+            'rbh_amount' => 0,
+            'number_of_people' => 0,
+            'rbh' => 0,
+        );
+
+        $insertItem = $this->Baza->PrepareInsert('items', $itemData);
+        if(!$this->Baza->Query($insertItem)){
+            echo Usefull::ShowKomunikatOstrzezenie("nie zaimporowano wiersza nr $rowNumber - błąd przy wprowadzaniu uruchomienia<br>");
+            return false;
+        }
+    }
   
 }

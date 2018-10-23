@@ -98,9 +98,11 @@ class ModulUstawienia extends ModulBazowy {
             $DodajRMC = array('link' => "?modul=rmc&akcja=dodawanie&typ=rmc", 'class' => 'dodawanie', 'img' => 'add.gif', 'desc' => 'Dodaj woj do RMC');
             $ImportujFirmy = array('link' => "?modul=firmy&akcja=import", 'class' => 'dodawanie', 'img' => 'add.gif', 'desc' => 'Import firm');
             $ImportujUrzadzenia = array('link' => "?modul=urzadzenia&akcja=import", 'class' => 'dodawanie', 'img' => 'add.gif', 'desc' => 'Import urządzeń');
+            $ImportujNumerySeryjne = array('link' => "?modul=numery_seryjne&akcja=import", 'class' => 'dodawanie', 'img' => 'add.gif', 'desc' => 'Import numerów seryjnych');
+            $ImportujUruchomienia = array('link' => "?modul=zlecenia&akcja=import", 'class' => 'dodawanie', 'img' => 'add.gif', 'desc' => 'Import uruchomień');
 
             $Akcje['akcja'] = array( $Konfiguracja, $GrupyCenowe, $ListaKategoriiCzesci, $DodajKategorieCzesci, $ListaRMC, $DodajRMC,
-                        $ListaWymagan, $DodajWymaganie, $ListaKategoriiWymagan, $DodajKategorieWymagan, $ImportujFirmy, $ImportujUrzadzenia);
+                        $ListaWymagan, $DodajWymaganie, $ListaKategoriiWymagan, $DodajKategorieWymagan, $ImportujFirmy, $ImportujUrzadzenia, $ImportujNumerySeryjne, $ImportujUruchomienia);
             return $Akcje;
         }
         

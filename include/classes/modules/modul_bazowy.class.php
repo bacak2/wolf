@@ -732,6 +732,7 @@ abstract class ModulBazowy {
 		else {
 			$Zapytanie = $this->Baza->PrepareInsert($this->Tabela, $Wartosci);
 		}
+		var_dump($Zapytanie); exit();
 		if ($this->Baza->Query($Zapytanie)) {
 			if (!$ID) {
 				$ID = $this->Baza->GetLastInsertID();
@@ -937,7 +938,9 @@ abstract class ModulBazowy {
 				break;
                         case 'pobierz':
                                 $this->AkcjaPobierz($ID);
-                                break;                            
+                                break;
+            case 'import': $this->Import(); break;
+            case 'importFile': $this->ImportFile(); break;
 			default:
 				$this->AkcjeNiestandardowe($ID);
 				break;
@@ -2059,6 +2062,67 @@ foreach($Elementy as $Element){
             return true;
             //return ModulConfig::GetGlobalConfig($Config);
         }
+
+    function ImportFile(){
+        require(SCIEZKA_PHPEXCEL.'PHPExcel.php');
+
+        $tmp_name = $_FILES['fileToUpload']['tmp_name'];
+        $filename = $_FILES['fileToUpload']['name'];
+        $importDir = __DIR__.'/../../../public/importFiles/';
+
+        if(is_uploaded_file($tmp_name)){
+            $extension = pathinfo($filename, PATHINFO_EXTENSION);
+            if(!in_array($extension, $this->allowedImportTypes)){
+                echo Usefull::ShowKomunikatError("Wystąpił błąd. Załącznik ma niepoprawne rozszerzenie. Dozwolone rozszerzenia to: ".implode(", ", $this->allowedImportTypes), true);
+                return $this->showImportForm();
+            }
+            if(!move_uploaded_file($tmp_name,$importDir.$filename)){
+                echo Usefull::ShowKomunikatError("Wystąpił błąd. Załącznik ma niepoprawne rozszerzenie. Dozwolone rozszerzenia to: ".implode(", ", $this->allowedImportTypes), true);
+                return $this->showImportForm();
+            }
+        }else{
+            echo Usefull::ShowKomunikatError("Wystąpił błąd podczas przesyłania pliku.", true);
+            return $this->showImportForm();
+        }
+
+        $objPHPExcel = PHPExcel_IOFactory::load($importDir.$filename);
+        $rowsAmount = $objPHPExcel->setActiveSheetIndex(0)->getHighestRow();
+
+        for($rowNumber = 2; $rowNumber < $rowsAmount; $rowNumber++){
+            //put imported companies to DB
+            $this->putImportedElements($objPHPExcel, $rowNumber);
+        }
+
+        echo Usefull::ShowKomunikatOK("Import pliku zakończony sukcesem.", true);
+
+    }
+
+    function Import(){
+        $this->showImportForm();
+    }
+
+    function showImportForm(){
+        echo '
+            <form action="/?modul='.$_GET['modul'].'&akcja=importFile" method="post" enctype="multipart/form-data">
+                <h1>Import - '.$this->importTitle.'</h1>
+                <p>Format pliku:</p>
+                <table class="exampleExcel">'.$this->columnsFormat.'</table>
+                Wybierz plik do importu:
+                <br>
+                <input type="file" name="fileToUpload" id="fileToUpload">
+                <br>
+                <input type="submit" value="Zaimportuj" name="submit">
+            </form>
+        ';
+    }
+
+    function showImported($cellIterator){
+        echo '<tr>';
+        foreach ($cellIterator as $cell) {
+            echo '<td>'.$cell->getValue().'</td>';
+        }
+        echo '</tr>';
+    }
         
 }
 ?>

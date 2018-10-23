@@ -131,3 +131,12 @@ form#zamowienie table td
     background-color: white;
     border: none;
 }
+
+table.exampleExcel td{
+    border: solid 0.5px black;
+    padding: 10px;
+}
+
+table.exampleExcel{
+    margin-bottom: 10px !important;
+}

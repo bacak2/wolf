@@ -23,6 +23,10 @@ class ModulFirmy extends ModulBazowy {
          */
         public $only_profile = false;
 
+    protected $allowedImportTypes;
+    protected $errors;
+    protected $columnsFormat;
+
 	function __construct(&$Baza, $Uzytkownik, $Parametr, $Sciezka) {
             parent::__construct($Baza, $Uzytkownik, $Parametr, $Sciezka);
             $this->Tabela = 'companies';
@@ -38,6 +42,8 @@ class ModulFirmy extends ModulBazowy {
                     $this->ZablokowaneElementyIDs['kasowanie'][] = $blocked_id ;
             }
             $this->ErrorsDescriptions['unikalne']['nip'] = "Firma o numerze NIP: %s już istnieje w bazie";
+            $this->allowedImportTypes = array('xls','xlsx' ,'ods');
+            $this->columnsFormat = '<tr><td>Firma</td><td>Adres</td><td>Telefon stacjonarny</td><td>Telefon komórkowy</td><td>Fax</td><td>Mail</td><td>www</td><td>Województwo</td><td>Autoryzacja</td></tr>';
 }
 
         function &GenerujFormularz(&$Wartosci = Array(), $Mapuj = false) {
@@ -227,7 +233,54 @@ class ModulFirmy extends ModulBazowy {
             $this->clickable_rows = false;
             include(SCIEZKA_SZABLONOW."firmy-js-scripts.tpl.php");
             parent::AkcjaLista($Filtry);
-        }      
+        }
+
+
+    function putImportedElements($objPHPExcel, $rowNumber){
+
+        $data = array(
+            'name' => $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(0, $rowNumber)->getValue(),
+            'street' => $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(1, $rowNumber)->getValue(),
+            'phone_number' => $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(2, $rowNumber)->getValue() ? $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(2, $rowNumber)->getValue() : $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(3, $rowNumber)->getValue(),
+            'discount' => 0,
+            'created_at' => date("Y-m-d H:i:s"),
+            'updated_at' => date("Y-m-d H:i:s"),
+            'isrmc' => 3,
+            'idrmc' => 2, //nie wiem co to ale wszystkie w bazie mają 2
+            );
+
+        $insert = $this->Baza->PrepareInsert('companies', $data);
+        $this->Baza->Query($insert);
+
+        $lastInsertedCompany = $this->Baza->GetLastInsertID();
+
+        //check in users if there is user who have this email
+        $email = $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(5, $rowNumber)->getValue();
+        $userId = $this->Baza->GetValue("SELECT id FROM users WHERE email = '{$email}' AND CHAR_LENGTH(email) = CHAR_LENGTH('{$email}')");
+        $autoryzacja = strtolower($objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(8, $rowNumber)->getValue());
+        if($userId){
+            $query = "UPDATE users SET company_id = $lastInsertedCompany, role = $autoryzacja WHERE id = $userId";
+            $this->Baza->Query($insert);
+        }
+        else{
+            $voievodeship = $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(7, $rowNumber)->getValue();
+            $province_id = $this->Baza->GetValue("SELECT id FROM provinces WHERE name = '{$voievodeship}'");
+            if(!$province_id) $province_id = 1;
+            $data = array(
+                'email' => $email,
+                'encrypted_new_password' => md5($email),
+                'verification_hash' => md5($email.Uzytkownik::HASH),
+                'created_at' => date("Y-m-d"),
+                'updated_at' => date("Y-m-d"),
+                'role' => $autoryzacja,
+                'active' => 1,
+                'entitled' => 1,
+                'province_id' => $province_id,
+                );
+            $insert = $this->Baza->PrepareInsert('users', $data);
+            $this->Baza->Query($insert);
+        }
+    }
         
         
 }

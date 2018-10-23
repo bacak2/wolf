@@ -16,7 +16,11 @@ class ModulNumerySeryjne extends ModulBazowy {
     private $Query;
     private $Functions;
     private $FunctionOnElementsBeforeMakeRow;
-    
+    protected $allowedImportTypes;
+    protected $errors;
+    protected $columnsFormat;
+    protected $importTitle;
+
 	function __construct(&$Baza, $Uzytkownik, $Parametr, $Sciezka) {
             parent::__construct($Baza, $Uzytkownik, $Parametr, $Sciezka);
             $this->ModulyBezMenuBocznego[] = $this->Parametr;
@@ -65,7 +69,14 @@ class ModulNumerySeryjne extends ModulBazowy {
                 $this->LinkPowrotu = "?modul=items&akcja=szczegoly&id={$_GET['bid']}";
                 $this->PrzyciskiFormularza['anuluj']['link'] = $this->LinkPowrotu;
             }
-            
+
+            $this->allowedImportTypes = array('xls','xlsx' ,'ods');
+            $this->columnsFormat = '
+                <tr><td rowspan="2">Lp.</td><td colspan="2">Dane zainstalowanych urządzeń</td></tr>
+                <tr><td>Urządzenie</td><td>Numer seryjny</td></tr>
+                ';
+            $this->importTitle = 'numery seryjne';
+
             /* uzupełnienie nowych kolumn z gwarancją w serial_numbers */
 //            if($_GET['uzupelnij'] == 1){
 //                $all_devices = $this->Baza->GetValues("SELECT DISTINCT(device_id) FROM $this->Tabela");
@@ -168,7 +179,7 @@ class ModulNumerySeryjne extends ModulBazowy {
             $Formularz->DodajPole('client_companyname', 'tekst', 'Firma/Instytucja', array('show_label'=>true,'div_class'=>'super-form-span4',));
 //            $Formularz->DodajPole('client_firstname_surname', 'tekst', 'Użytkownik/Właściciel', array('show_label'=>true,'div_class'=>'super-form-span4',));
             $Formularz->DodajPole('clear', 'clear', '', array());
-            $Formularz->DodajPole('client_street', 'lista-chosen-single', 'Addres', array('show_label'=>true,'div_class'=>'super-form-span4', 'elementy' => $this->GetSelect('Urzadzenia')));
+            $Formularz->DodajPole('client_street', 'lista-chosen-single', 'Adres', array('show_label'=>true,'div_class'=>'super-form-span4', 'elementy' => $this->GetSelect('Urzadzenia')));
             $Formularz->DodajPole('client_city', 'tekst', 'Miejscowość', array('show_label'=>true,'div_class'=>'super-form-span4',));
             $Formularz->DodajPole('client_postcode', 'tekst', 'Kod pocztowy', array('show_label'=>true,'div_class'=>'super-form-span4'));
             $Formularz->DodajPole('client_phone', 'tekst', 'Telefon', array('show_label'=>true,'div_class'=>'super-form-span4',));            
@@ -636,6 +647,43 @@ class ModulNumerySeryjne extends ModulBazowy {
         protected function GetListPathKategorii( $tabela ){
             $path_category = $this->Baza->GetOptions( "SELECT id, concat( path_to,' [', code, ']') FROM $tabela " );
             return $path_category;
+        }
+
+        function putImportedElements($objPHPExcel, $rowNumber){
+
+            $rowNumber++;
+            $deviceTitle = $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(1, $rowNumber)->getValue();
+            $snu = $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(2, $rowNumber)->getValue();
+
+            //check if snu is already exists in DB
+            $snuInDB = $this->Baza->GetValue("SELECT id FROM $this->Tabela WHERE snu = '{$snu}'");
+            if($snuInDB){
+                echo Usefull::ShowKomunikatOstrzezenie("nie zaimporowano wiersza nr $rowNumber - taki numer seryjny znajduję się już w bazie<br>");
+                return false;
+            }
+
+            //check if in DB is device of this name
+            $deviceId = $this->Baza->GetValue("SELECT id FROM devices WHERE title = '{$deviceTitle}'");
+            if(!$deviceId){
+                echo Usefull::ShowKomunikatOstrzezenie("nie zaimporowano wiersza nr $rowNumber - nie znaleziono urządzenia o nazwie $deviceTitle<br>");
+                return false;
+            }
+
+            //prepare and insert serial number
+            $data = array(
+                'snu' => $snu,
+                'device_id' => $deviceId,
+                'approved' => 1,
+                'created_at' => date("Y-m-d H:i:s"),
+                'updated_at' => date("Y-m-d H:i:s"),
+            );
+
+            $insert = $this->Baza->PrepareInsert('serial_numbers', $data);
+            if(!$this->Baza->Query($insert)){
+               echo Usefull::ShowKomunikatOstrzezenie("nie zaimporowano wiersza nr $rowNumber - błąd przy wprowadzaniu numeru seryjnego<br>");
+               return false;
+            }
+
         }
         
 }

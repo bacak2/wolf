@@ -12,7 +12,7 @@
  *  begin class ModulUrzadzenia
  */
 
-class ModulUrzadzenia extends ModulBazowy {
+class ModulUrzadzenia extends ModulBazowy{
 
     
 /**
@@ -25,9 +25,11 @@ class ModulUrzadzenia extends ModulBazowy {
     
     protected $TabelaParametryWymaganeUrzadzania;
     protected $WymaganeParametry;
+    protected $allowedImportTypes;
+    protected $errors;
+    protected $columnsFormat;
+    protected $importTitle;
 
-    
-    
 /**
  * konstruktor klasy Urzadzenia
  * 
@@ -68,6 +70,9 @@ class ModulUrzadzenia extends ModulBazowy {
             $this->PoleZdjecia = $this->TabelaPlikowPrefix.'list';
             $this->PolePlikuID = $this->TabelaPlikowPrefix.'id';
             $this->PolePlikuHASH = $this->TabelaPlikowPrefix.'hash';
+            $this->allowedImportTypes = array('xls','xlsx' ,'ods');
+            $this->columnsFormat = '<tr><td>Lp.</td><td>Num</td></tr>';
+            $this->importTitle = 'urządzenia';
 	}
     
 /**
@@ -611,8 +616,24 @@ class ModulUrzadzenia extends ModulBazowy {
             }
         }
 
-        function Import(){
-            echo 'import test';
+        function putImportedElements($objPHPExcel, $rowNumber){
+
+            $data = array(
+                'name' => $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(0, $rowNumber)->getValue(),
+                'street' => $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(1, $rowNumber)->getValue(),
+                'phone_number' => $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(2, $rowNumber)->getValue() ? $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(2, $rowNumber)->getValue() : $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(3, $rowNumber)->getValue(),
+                'discount' => 0,
+                'created_at' => date("Y-m-d H:i:s"),
+                'updated_at' => date("Y-m-d H:i:s"),
+                'isrmc' => 3,
+                'idrmc' => 2, //nie wiem co to ale wszystkie w bazie mają 2
+            );
+
+            $insert = $this->Baza->PrepareInsert('companies', $data);
+            $this->Baza->Query($insert);
+
+            exit();
+
         }
 }
 /*

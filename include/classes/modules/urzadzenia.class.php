@@ -71,7 +71,7 @@ class ModulUrzadzenia extends ModulBazowy{
             $this->PolePlikuID = $this->TabelaPlikowPrefix.'id';
             $this->PolePlikuHASH = $this->TabelaPlikowPrefix.'hash';
             $this->allowedImportTypes = array('xls','xlsx' ,'ods');
-            $this->columnsFormat = '<tr><td>Lp.</td><td>Num</td></tr>';
+            $this->columnsFormat = '<tr><td>Nazwa urządzenia</td><td>Numer katalogowy (KZU)</td><td>Kod kategorii (KONMM, TG itd.)</td><td>Gwarancja (w miesiącach)</td><td>Miesiące przeglądów gwarancyjnych (rozdzielone przecinkiem)</td><td>Opis</td><td>Pierwsze uruchomienie</td><td>Uruchomienie serwisowe</td></tr>';
             $this->importTitle = 'urządzenia';
 	}
     

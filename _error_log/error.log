@@ -9368,3 +9368,22 @@ Stack trace:
                         
 [23-Oct-2018 15:42:40 Europe/Berlin] SQL Query: SELECT DISTINCT(devices_title_devices_title_id) FROM devices
 [23-Oct-2018 15:42:40 Europe/Berlin] SQL Query: SELECT id, category_parts_name FROM category_parts WHERE visible = 1 
+[23-Oct-2018 15:49:32 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:49:32 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:49:32 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:49:32 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:49:49 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:49:49 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:49:49 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:49:49 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:49:49 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:49:49 Europe/Berlin] SQL Query: SELECT DISTINCT(device_id) FROM serial_numbers
+[23-Oct-2018 15:52:16 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:52:16 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:52:16 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:52:16 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:52:16 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:52:16 Europe/Berlin] SQL Query: SELECT DISTINCT(device_id) FROM serial_numbers
+[23-Oct-2018 15:52:20 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:52:20 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:52:20 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;

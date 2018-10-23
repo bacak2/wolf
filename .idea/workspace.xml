@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="060110d3-c3c1-49c7-b3bd-a9520174a162" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.pliki-excel/.~lock.Format_Dane_Serwisowe-WTOREK.XLSX#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.pliki-excel/.~lock.numery_seryjne.xls#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.pliki-excel/numery_seryjne.xls" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/_error_log/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/_error_log/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/classes/modules/firmy.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/modules/firmy.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/classes/modules/modul_bazowy.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/modules/modul_bazowy.class.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/classes/modules/urzadzenia.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/modules/urzadzenia.class.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +17,8 @@
       <file leaf-file-name="urzadzenia.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/include/classes/modules/urzadzenia.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="634" column="50" selection-start-line="634" selection-start-column="50" selection-end-line="634" selection-end-column="50" />
+            <state relative-caret-position="170">
+              <caret line="73" column="305" selection-start-line="73" selection-start-column="305" selection-end-line="73" selection-end-column="305" />
               <folding>
                 <element signature="e#6#217#0#PHP" expanded="true" />
               </folding>
@@ -149,9 +144,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="41" />
-    <option name="y" value="443" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-112" />
+    <option name="y" value="276" />
     <option name="width" value="1426" />
     <option name="height" value="737" />
   </component>
@@ -225,15 +220,15 @@
       <workItem from="1539929798006" duration="5806000" />
       <workItem from="1539937498905" duration="1538000" />
       <workItem from="1540201200259" duration="10153000" />
-      <workItem from="1540275655070" duration="21326000" />
+      <workItem from="1540275655070" duration="21558000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51994000" />
+    <option name="totallyTimeSpent" value="52226000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-1" width="1442" height="881" extended-state="6" />
+    <frame x="-112" y="276" width="1426" height="737" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -242,7 +237,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18611111" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18820225" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32947233" />
@@ -763,8 +758,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/include/classes/modules/urzadzenia.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="634" column="50" selection-start-line="634" selection-start-column="50" selection-end-line="634" selection-end-column="50" />
+        <state relative-caret-position="170">
+          <caret line="73" column="305" selection-start-line="73" selection-start-column="305" selection-end-line="73" selection-end-column="305" />
           <folding>
             <element signature="e#6#217#0#PHP" expanded="true" />
           </folding>

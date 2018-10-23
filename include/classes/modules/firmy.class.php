@@ -26,6 +26,7 @@ class ModulFirmy extends ModulBazowy {
     protected $allowedImportTypes;
     protected $errors;
     protected $columnsFormat;
+    protected $importTitle;
 
 	function __construct(&$Baza, $Uzytkownik, $Parametr, $Sciezka) {
             parent::__construct($Baza, $Uzytkownik, $Parametr, $Sciezka);
@@ -44,6 +45,7 @@ class ModulFirmy extends ModulBazowy {
             $this->ErrorsDescriptions['unikalne']['nip'] = "Firma o numerze NIP: %s już istnieje w bazie";
             $this->allowedImportTypes = array('xls','xlsx' ,'ods');
             $this->columnsFormat = '<tr><td>Firma</td><td>Adres</td><td>Telefon stacjonarny</td><td>Telefon komórkowy</td><td>Fax</td><td>Mail</td><td>www</td><td>Województwo</td><td>Autoryzacja</td></tr>';
+            $this->importTitle = 'firmy serwisowe';
 }
 
         function &GenerujFormularz(&$Wartosci = Array(), $Mapuj = false) {

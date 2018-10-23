@@ -732,7 +732,6 @@ abstract class ModulBazowy {
 		else {
 			$Zapytanie = $this->Baza->PrepareInsert($this->Tabela, $Wartosci);
 		}
-		var_dump($Zapytanie); exit();
 		if ($this->Baza->Query($Zapytanie)) {
 			if (!$ID) {
 				$ID = $this->Baza->GetLastInsertID();

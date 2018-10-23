@@ -8802,3 +8802,569 @@ Stack trace:
 [23-Oct-2018 14:54:11 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
 [23-Oct-2018 14:54:11 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
 [23-Oct-2018 14:54:11 Europe/Berlin] SQL Query: SELECT DISTINCT(device_id) FROM serial_numbers
+[23-Oct-2018 14:58:54 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 14:58:55 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 14:58:55 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 14:58:55 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:00:12 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:00:13 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:00:13 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:00:13 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:00:13 Europe/Berlin] SQL Query: SELECT id, name FROM provinces ORDER BY name ASC
+[23-Oct-2018 15:00:13 Europe/Berlin] SQL Query: SELECT DISTINCT(company_id) FROM users
+[23-Oct-2018 15:03:18 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:03:18 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:03:18 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:03:18 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:03:22 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:03:22 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:03:22 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:03:22 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:03:22 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:03:22 Europe/Berlin] SQL Query: SELECT DISTINCT(device_id) FROM serial_numbers
+[23-Oct-2018 15:03:26 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:03:26 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:03:26 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:03:26 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:05:04 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:05:04 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:05:04 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:05:04 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:05:05 Europe/Berlin] SQL Query: SELECT c.name, group_concat( p.name ) as woj, tp.company_id
+                    FROM rmc_provinces tp 
+                        LEFT JOIN companies c ON (c.id = tp.company_id)
+                        LEFT JOIN provinces p ON (p.id = tp.province_id)
+                    
+                    GROUP BY tp.company_id
+                    
+[23-Oct-2018 15:05:06 Europe/Berlin] SQL Query: SELECT c.name, group_concat( p.name ) as woj, tp.company_id
+                    FROM rmc_provinces tp 
+                        LEFT JOIN companies c ON (c.id = tp.company_id)
+                        LEFT JOIN provinces p ON (p.id = tp.province_id)
+                    
+                    GROUP BY tp.company_id
+                      LIMIT 0, 30
+[23-Oct-2018 15:05:11 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:05:11 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:05:11 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:05:11 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:05:13 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:05:13 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:05:13 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:05:13 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:05:14 Europe/Berlin] SQL Query: SELECT tooltip FROM users WHERE 1
+[23-Oct-2018 15:05:14 Europe/Berlin] SQL Error 1054: Unknown column 'tooltip' in 'field list'
+[23-Oct-2018 15:05:14 Europe/Berlin] SQL Query: SELECT c.id, c.name FROM companies AS c
+                LEFT JOIN users u ON (c.id = u.company_id)
+                WHERE u.role LIKE &#039;rmc&#039;
+                group by c.id
+                ORDER BY name ASC
+[23-Oct-2018 15:05:14 Europe/Berlin] SQL Query: SELECT id, name FROM provinces ORDER BY name ASC
+[23-Oct-2018 15:05:14 Europe/Berlin] SQL Query: SELECT province_id FROM rmc_provinces WHERE company_id != &#039;&#039;
+[23-Oct-2018 15:05:21 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:05:21 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:05:21 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:05:21 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:11:20 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:11:20 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:11:20 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:11:20 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:11:20 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:11:20 Europe/Berlin] SQL Query: SELECT DISTINCT(device_id) FROM serial_numbers
+[23-Oct-2018 15:27:51 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:27:51 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:27:51 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:27:51 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:27:51 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:27:52 Europe/Berlin] SQL Query: SELECT DISTINCT(device_id) FROM serial_numbers
+[23-Oct-2018 15:27:59 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:27:59 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:27:59 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:27:59 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:27:59 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:27:59 Europe/Berlin] SQL Query: SELECT DISTINCT(device_id) FROM serial_numbers
+[23-Oct-2018 15:27:59 Europe/Berlin] SQL Query: SELECT tooltip FROM users WHERE 1
+[23-Oct-2018 15:27:59 Europe/Berlin] SQL Error 1054: Unknown column 'tooltip' in 'field list'
+[23-Oct-2018 15:27:59 Europe/Berlin] SQL Query: SELECT devices_title_id, devices_title_title FROM devices_title
+[23-Oct-2018 15:27:59 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:27:59 Europe/Berlin] SQL Query: SELECT id, concat( title,&#039; &lt;b&gt;[&#039;, code, &#039;]&lt;/b&gt;&#039;) as title, ancestry FROM categories ORDER BY code, LENGTH(code), path_to  
+[23-Oct-2018 15:31:09 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:31:09 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:31:09 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:31:10 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:31:10 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:31:10 Europe/Berlin] SQL Query: SELECT DISTINCT(device_id) FROM serial_numbers
+[23-Oct-2018 15:31:10 Europe/Berlin] SQL Query: SELECT tooltip FROM users WHERE 1
+[23-Oct-2018 15:31:10 Europe/Berlin] SQL Error 1054: Unknown column 'tooltip' in 'field list'
+[23-Oct-2018 15:31:10 Europe/Berlin] SQL Query: SELECT devices_title_id, devices_title_title FROM devices_title
+[23-Oct-2018 15:31:10 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:31:10 Europe/Berlin] SQL Query: SELECT id, concat( title,&#039; &lt;b&gt;[&#039;, code, &#039;]&lt;/b&gt;&#039;) as title, ancestry FROM categories ORDER BY code, LENGTH(code), path_to  
+[23-Oct-2018 15:31:10 Europe/Berlin] SQL Query: SELECT COUNT(*) FROM devices WHERE kzu = &#039;1232342211111111111111&#039; 
+[23-Oct-2018 15:31:21 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:31:21 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:31:21 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:31:21 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:31:21 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:31:21 Europe/Berlin] SQL Query: SELECT DISTINCT(device_id) FROM serial_numbers
+[23-Oct-2018 15:31:21 Europe/Berlin] SQL Query: SELECT tooltip FROM users WHERE 1
+[23-Oct-2018 15:31:21 Europe/Berlin] SQL Error 1054: Unknown column 'tooltip' in 'field list'
+[23-Oct-2018 15:31:21 Europe/Berlin] SQL Query: SELECT devices_title_id, devices_title_title FROM devices_title
+[23-Oct-2018 15:31:21 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:31:21 Europe/Berlin] SQL Query: SELECT id, concat( title,&#039; &lt;b&gt;[&#039;, code, &#039;]&lt;/b&gt;&#039;) as title, ancestry FROM categories ORDER BY code, LENGTH(code), path_to  
+[23-Oct-2018 15:31:21 Europe/Berlin] SQL Query: SELECT COUNT(*) FROM devices WHERE kzu = &#039;12323422111&#039; 
+[23-Oct-2018 15:31:21 Europe/Berlin] SQL Query: SELECT devices_title_title FROM devices_title WHERE devices_title_id = 49
+[23-Oct-2018 15:31:56 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:31:56 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:31:56 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:31:56 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:31:56 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:31:56 Europe/Berlin] SQL Query: SELECT DISTINCT(device_id) FROM serial_numbers
+[23-Oct-2018 15:31:56 Europe/Berlin] SQL Query: SELECT tooltip FROM users WHERE 1
+[23-Oct-2018 15:31:56 Europe/Berlin] SQL Error 1054: Unknown column 'tooltip' in 'field list'
+[23-Oct-2018 15:31:56 Europe/Berlin] SQL Query: SELECT devices_title_id, devices_title_title FROM devices_title
+[23-Oct-2018 15:31:56 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:31:56 Europe/Berlin] SQL Query: SELECT id, concat( title,&#039; &lt;b&gt;[&#039;, code, &#039;]&lt;/b&gt;&#039;) as title, ancestry FROM categories ORDER BY code, LENGTH(code), path_to  
+[23-Oct-2018 15:31:56 Europe/Berlin] SQL Query: SELECT COUNT(*) FROM devices WHERE kzu = &#039;12323422111&#039; 
+[23-Oct-2018 15:31:56 Europe/Berlin] SQL Query: SELECT devices_title_title FROM devices_title WHERE devices_title_id = 49
+[23-Oct-2018 15:31:56 Europe/Berlin] SQL Query: INSERT INTO devices SET kzu = &#039;12323422111&#039;, devices_title_devices_title_id = &#039;49&#039;, category_id = &#039;11&#039;, setup_zero = &#039;1&#039;, setup = &#039;1&#039;, visible = &#039;1&#039;, warranty = &#039;13&#039;, warranty_service = &#039;1&#039;, warranty_service_months = &#039;&#039;, description = &#039;opis&#039;, title = &#039;CGB-2K-24&#039;
+[23-Oct-2018 15:31:58 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:31:58 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:31:58 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:31:58 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:31:58 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:31:58 Europe/Berlin] SQL Query: SELECT DISTINCT(device_id) FROM serial_numbers
+[23-Oct-2018 15:31:58 Europe/Berlin] SQL Query: SELECT d.* FROM devices d 
+                LEFT JOIN categories c ON (d.category_id = c.id) 
+                 ORDER BY kzu ASC
+[23-Oct-2018 15:31:59 Europe/Berlin] SQL Query: SELECT d.* FROM devices d 
+                LEFT JOIN categories c ON (d.category_id = c.id) 
+                 ORDER BY kzu ASC  LIMIT 0, 30
+[23-Oct-2018 15:32:14 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:32:14 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:32:14 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:32:14 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:32:14 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:32:14 Europe/Berlin] SQL Query: SELECT DISTINCT(device_id) FROM serial_numbers
+[23-Oct-2018 15:32:14 Europe/Berlin] SQL Query: SELECT * FROM devices WHERE id = &#039;118&#039; LIMIT 1
+[23-Oct-2018 15:32:14 Europe/Berlin] SQL Query: SELECT tooltip FROM users WHERE 1
+[23-Oct-2018 15:32:14 Europe/Berlin] SQL Error 1054: Unknown column 'tooltip' in 'field list'
+[23-Oct-2018 15:32:14 Europe/Berlin] SQL Query: SELECT devices_title_id, devices_title_title FROM devices_title
+[23-Oct-2018 15:32:14 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:32:14 Europe/Berlin] SQL Query: SELECT id, concat( title,&#039; &lt;b&gt;[&#039;, code, &#039;]&lt;/b&gt;&#039;) as title, ancestry FROM categories ORDER BY code, LENGTH(code), path_to  
+[23-Oct-2018 15:32:14 Europe/Berlin] SQL Query: SELECT id, category_parts_name FROM category_parts WHERE visible = 1 
+[23-Oct-2018 15:32:14 Europe/Berlin] SQL Query: SELECT id, required_name FROM required WHERE visible = 1 
+[23-Oct-2018 15:32:14 Europe/Berlin] SQL Query: SELECT devices_title_file_hash, devices_title_file_id, devices_title_file_name, devices_title_file_orginal_name FROM devices_title_file WHERE devices_title_file_id = &#039;118&#039;
+[23-Oct-2018 15:32:15 Europe/Berlin] SQL Query: SELECT categories_zero_guided_start_category_required_id FROM categories_zero_guided_start WHERE categories_zero_guided_start_categories_id = &#039;11&#039;
+[23-Oct-2018 15:32:15 Europe/Berlin] SQL Query: SELECT categories_service_guided_start_parameters_category_required_id FROM categories_service_guided_start_parameters WHERE categories_service_guided_start_parameters_categories_id = &#039;11&#039;
+[23-Oct-2018 15:32:15 Europe/Berlin] SQL Query: SELECT DISTINCT(devices_title_devices_title_id) FROM devices
+[23-Oct-2018 15:32:15 Europe/Berlin] SQL Query: SELECT * FROM devices_title WHERE devices_title_id = &#039;49&#039; LIMIT 1
+[23-Oct-2018 15:32:15 Europe/Berlin] SQL Query: SELECT id, category_parts_name FROM category_parts WHERE visible = 1 
+[23-Oct-2018 15:32:15 Europe/Berlin] SQL Query: SELECT devices_title_file_hash, devices_title_file_id, devices_title_file_name, devices_title_file_orginal_name FROM devices_title_file WHERE devices_title_file_devices_title_id = &#039;49&#039;
+[23-Oct-2018 15:32:15 Europe/Berlin] SQL Query: 
+                        SELECT
+                            arrangement_of_parts_files_id, arrangement_of_parts_files_name, arrangement_of_parts_files_hash, arrangement_of_parts_files_orginal_name, arrangement_of_parts_files_parts_category
+                        FROM 
+                            arrangement_of_parts_files
+                        WHERE
+                            arrangement_of_parts_files_devices_title_id = 49
+                        
+[23-Oct-2018 15:32:15 Europe/Berlin] SQL Query: SELECT DISTINCT(devices_title_devices_title_id) FROM devices
+[23-Oct-2018 15:32:15 Europe/Berlin] SQL Query: SELECT * FROM devices_title WHERE devices_title_id = &#039;49&#039; LIMIT 1
+[23-Oct-2018 15:32:15 Europe/Berlin] SQL Query: SELECT id, category_parts_name FROM category_parts WHERE visible = 1 
+[23-Oct-2018 15:32:15 Europe/Berlin] SQL Query: SELECT devices_title_file_hash, devices_title_file_id, devices_title_file_name, devices_title_file_orginal_name FROM devices_title_file WHERE devices_title_file_devices_title_id = &#039;49&#039;
+[23-Oct-2018 15:32:15 Europe/Berlin] SQL Query: 
+                        SELECT
+                            arrangement_of_parts_files_id, arrangement_of_parts_files_name, arrangement_of_parts_files_hash, arrangement_of_parts_files_orginal_name, arrangement_of_parts_files_parts_category
+                        FROM 
+                            arrangement_of_parts_files
+                        WHERE
+                            arrangement_of_parts_files_devices_title_id = 49
+                        
+[23-Oct-2018 15:32:15 Europe/Berlin] SQL Query: SELECT devices_title_id, devices_title_title FROM devices_title
+[23-Oct-2018 15:32:15 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:32:15 Europe/Berlin] SQL Query: SELECT tooltip FROM users WHERE 1
+[23-Oct-2018 15:32:15 Europe/Berlin] SQL Error 1054: Unknown column 'tooltip' in 'field list'
+[23-Oct-2018 15:32:15 Europe/Berlin] SQL Query: SELECT devices_title_id, devices_title_title FROM devices_title
+[23-Oct-2018 15:32:15 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:32:15 Europe/Berlin] SQL Query: SELECT id, concat( title,&#039; &lt;b&gt;[&#039;, code, &#039;]&lt;/b&gt;&#039;) as title, ancestry FROM categories ORDER BY code, LENGTH(code), path_to  
+[23-Oct-2018 15:32:15 Europe/Berlin] SQL Query: SELECT id, category_parts_name FROM category_parts WHERE visible = 1 
+[23-Oct-2018 15:32:15 Europe/Berlin] SQL Query: SELECT id, required_name FROM required WHERE visible = 1 
+[23-Oct-2018 15:33:08 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:33:08 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:33:08 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:33:08 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:33:08 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:33:08 Europe/Berlin] SQL Query: SELECT DISTINCT(device_id) FROM serial_numbers
+[23-Oct-2018 15:33:08 Europe/Berlin] SQL Query: SELECT * FROM devices WHERE id = &#039;118&#039; LIMIT 1
+[23-Oct-2018 15:33:08 Europe/Berlin] SQL Query: SELECT tooltip FROM users WHERE 1
+[23-Oct-2018 15:33:08 Europe/Berlin] SQL Error 1054: Unknown column 'tooltip' in 'field list'
+[23-Oct-2018 15:33:08 Europe/Berlin] SQL Query: SELECT devices_title_id, devices_title_title FROM devices_title
+[23-Oct-2018 15:33:08 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:33:08 Europe/Berlin] SQL Query: SELECT id, concat( title,&#039; &lt;b&gt;[&#039;, code, &#039;]&lt;/b&gt;&#039;) as title, ancestry FROM categories ORDER BY code, LENGTH(code), path_to  
+[23-Oct-2018 15:33:08 Europe/Berlin] SQL Query: SELECT id, category_parts_name FROM category_parts WHERE visible = 1 
+[23-Oct-2018 15:33:08 Europe/Berlin] SQL Query: SELECT id, required_name FROM required WHERE visible = 1 
+[23-Oct-2018 15:33:08 Europe/Berlin] SQL Query: SELECT devices_title_file_hash, devices_title_file_id, devices_title_file_name, devices_title_file_orginal_name FROM devices_title_file WHERE devices_title_file_id = &#039;118&#039;
+[23-Oct-2018 15:33:08 Europe/Berlin] SQL Query: SELECT categories_zero_guided_start_category_required_id FROM categories_zero_guided_start WHERE categories_zero_guided_start_categories_id = &#039;11&#039;
+[23-Oct-2018 15:33:08 Europe/Berlin] SQL Query: SELECT categories_service_guided_start_parameters_category_required_id FROM categories_service_guided_start_parameters WHERE categories_service_guided_start_parameters_categories_id = &#039;11&#039;
+[23-Oct-2018 15:33:09 Europe/Berlin] SQL Query: SELECT DISTINCT(devices_title_devices_title_id) FROM devices
+[23-Oct-2018 15:33:09 Europe/Berlin] SQL Query: SELECT * FROM devices_title WHERE devices_title_id = &#039;49&#039; LIMIT 1
+[23-Oct-2018 15:33:09 Europe/Berlin] SQL Query: SELECT id, category_parts_name FROM category_parts WHERE visible = 1 
+[23-Oct-2018 15:33:09 Europe/Berlin] SQL Query: SELECT devices_title_file_hash, devices_title_file_id, devices_title_file_name, devices_title_file_orginal_name FROM devices_title_file WHERE devices_title_file_devices_title_id = &#039;49&#039;
+[23-Oct-2018 15:33:09 Europe/Berlin] SQL Query: 
+                        SELECT
+                            arrangement_of_parts_files_id, arrangement_of_parts_files_name, arrangement_of_parts_files_hash, arrangement_of_parts_files_orginal_name, arrangement_of_parts_files_parts_category
+                        FROM 
+                            arrangement_of_parts_files
+                        WHERE
+                            arrangement_of_parts_files_devices_title_id = 49
+                        
+[23-Oct-2018 15:33:09 Europe/Berlin] SQL Query: SELECT DISTINCT(devices_title_devices_title_id) FROM devices
+[23-Oct-2018 15:33:09 Europe/Berlin] SQL Query: SELECT * FROM devices_title WHERE devices_title_id = &#039;49&#039; LIMIT 1
+[23-Oct-2018 15:33:09 Europe/Berlin] SQL Query: SELECT id, category_parts_name FROM category_parts WHERE visible = 1 
+[23-Oct-2018 15:33:09 Europe/Berlin] SQL Query: SELECT devices_title_file_hash, devices_title_file_id, devices_title_file_name, devices_title_file_orginal_name FROM devices_title_file WHERE devices_title_file_devices_title_id = &#039;49&#039;
+[23-Oct-2018 15:33:09 Europe/Berlin] SQL Query: 
+                        SELECT
+                            arrangement_of_parts_files_id, arrangement_of_parts_files_name, arrangement_of_parts_files_hash, arrangement_of_parts_files_orginal_name, arrangement_of_parts_files_parts_category
+                        FROM 
+                            arrangement_of_parts_files
+                        WHERE
+                            arrangement_of_parts_files_devices_title_id = 49
+                        
+[23-Oct-2018 15:33:09 Europe/Berlin] SQL Query: SELECT devices_title_id, devices_title_title FROM devices_title
+[23-Oct-2018 15:33:09 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:33:09 Europe/Berlin] SQL Query: SELECT tooltip FROM users WHERE 1
+[23-Oct-2018 15:33:09 Europe/Berlin] SQL Error 1054: Unknown column 'tooltip' in 'field list'
+[23-Oct-2018 15:33:09 Europe/Berlin] SQL Query: SELECT devices_title_id, devices_title_title FROM devices_title
+[23-Oct-2018 15:33:09 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:33:09 Europe/Berlin] SQL Query: SELECT id, concat( title,&#039; &lt;b&gt;[&#039;, code, &#039;]&lt;/b&gt;&#039;) as title, ancestry FROM categories ORDER BY code, LENGTH(code), path_to  
+[23-Oct-2018 15:33:09 Europe/Berlin] SQL Query: SELECT id, category_parts_name FROM category_parts WHERE visible = 1 
+[23-Oct-2018 15:33:09 Europe/Berlin] SQL Query: SELECT id, required_name FROM required WHERE visible = 1 
+[23-Oct-2018 15:33:27 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:33:27 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:33:27 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:33:27 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:33:27 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:33:27 Europe/Berlin] SQL Query: SELECT DISTINCT(device_id) FROM serial_numbers
+[23-Oct-2018 15:33:29 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:33:29 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:33:29 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:33:29 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:33:29 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:33:29 Europe/Berlin] SQL Query: SELECT DISTINCT(device_id) FROM serial_numbers
+[23-Oct-2018 15:33:29 Europe/Berlin] SQL Query: SELECT tooltip FROM users WHERE 1
+[23-Oct-2018 15:33:29 Europe/Berlin] SQL Error 1054: Unknown column 'tooltip' in 'field list'
+[23-Oct-2018 15:33:29 Europe/Berlin] SQL Query: SELECT devices_title_id, devices_title_title FROM devices_title
+[23-Oct-2018 15:33:29 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:33:29 Europe/Berlin] SQL Query: SELECT id, concat( title,&#039; &lt;b&gt;[&#039;, code, &#039;]&lt;/b&gt;&#039;) as title, ancestry FROM categories ORDER BY code, LENGTH(code), path_to  
+[23-Oct-2018 15:34:17 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:34:17 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:34:17 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:34:17 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:34:17 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:34:17 Europe/Berlin] SQL Query: SELECT DISTINCT(device_id) FROM serial_numbers
+[23-Oct-2018 15:34:17 Europe/Berlin] SQL Query: SELECT tooltip FROM users WHERE 1
+[23-Oct-2018 15:34:17 Europe/Berlin] SQL Error 1054: Unknown column 'tooltip' in 'field list'
+[23-Oct-2018 15:34:17 Europe/Berlin] SQL Query: SELECT devices_title_id, devices_title_title FROM devices_title
+[23-Oct-2018 15:34:17 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:34:17 Europe/Berlin] SQL Query: SELECT id, concat( title,&#039; &lt;b&gt;[&#039;, code, &#039;]&lt;/b&gt;&#039;) as title, ancestry FROM categories ORDER BY code, LENGTH(code), path_to  
+[23-Oct-2018 15:34:17 Europe/Berlin] SQL Query: SELECT COUNT(*) FROM devices WHERE kzu = &#039;1232342211166&#039; 
+[23-Oct-2018 15:34:17 Europe/Berlin] SQL Query: SELECT devices_title_title FROM devices_title WHERE devices_title_id = 49
+[23-Oct-2018 15:34:17 Europe/Berlin] SQL Query: INSERT INTO devices SET kzu = &#039;1232342211166&#039;, devices_title_devices_title_id = &#039;49&#039;, category_id = &#039;8&#039;, warranty = &#039;24&#039;, warranty_service = &#039;1&#039;, warranty_service_months = &#039;12&#039;, description = &#039;&#039;, setup_zero = &#039;0&#039;, setup = &#039;0&#039;, visible = &#039;0&#039;, title = &#039;CGB-2K-24&#039;
+[23-Oct-2018 15:34:18 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:34:18 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:34:18 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:34:18 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:34:18 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:34:18 Europe/Berlin] SQL Query: SELECT DISTINCT(device_id) FROM serial_numbers
+[23-Oct-2018 15:34:18 Europe/Berlin] SQL Query: SELECT d.* FROM devices d 
+                LEFT JOIN categories c ON (d.category_id = c.id) 
+                 ORDER BY kzu ASC
+[23-Oct-2018 15:34:18 Europe/Berlin] SQL Query: SELECT d.* FROM devices d 
+                LEFT JOIN categories c ON (d.category_id = c.id) 
+                 ORDER BY kzu ASC  LIMIT 0, 30
+[23-Oct-2018 15:35:17 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:35:17 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:35:17 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:35:17 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:35:17 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:35:17 Europe/Berlin] SQL Query: SELECT DISTINCT(device_id) FROM serial_numbers
+[23-Oct-2018 15:35:20 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:35:20 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:35:20 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:35:20 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:35:20 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:35:20 Europe/Berlin] SQL Query: SELECT DISTINCT(device_id) FROM serial_numbers
+[23-Oct-2018 15:35:20 Europe/Berlin] SQL Query: SELECT d.* FROM devices d 
+                LEFT JOIN categories c ON (d.category_id = c.id) 
+                 ORDER BY kzu ASC
+[23-Oct-2018 15:35:20 Europe/Berlin] SQL Query: SELECT d.* FROM devices d 
+                LEFT JOIN categories c ON (d.category_id = c.id) 
+                 ORDER BY kzu ASC  LIMIT 0, 30
+[23-Oct-2018 15:35:22 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:35:22 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:35:22 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:35:22 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:35:22 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:35:22 Europe/Berlin] SQL Query: SELECT DISTINCT(device_id) FROM serial_numbers
+[23-Oct-2018 15:35:22 Europe/Berlin] SQL Query: SELECT * FROM devices WHERE id = &#039;119&#039; LIMIT 1
+[23-Oct-2018 15:35:22 Europe/Berlin] SQL Query: SELECT tooltip FROM users WHERE 1
+[23-Oct-2018 15:35:22 Europe/Berlin] SQL Error 1054: Unknown column 'tooltip' in 'field list'
+[23-Oct-2018 15:35:22 Europe/Berlin] SQL Query: SELECT devices_title_id, devices_title_title FROM devices_title
+[23-Oct-2018 15:35:23 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:35:23 Europe/Berlin] SQL Query: SELECT id, concat( title,&#039; &lt;b&gt;[&#039;, code, &#039;]&lt;/b&gt;&#039;) as title, ancestry FROM categories ORDER BY code, LENGTH(code), path_to  
+[23-Oct-2018 15:35:23 Europe/Berlin] SQL Query: SELECT categories_zero_guided_start_category_required_id FROM categories_zero_guided_start WHERE categories_zero_guided_start_categories_id = &#039;8&#039;
+[23-Oct-2018 15:35:23 Europe/Berlin] SQL Query: SELECT categories_service_guided_start_parameters_category_required_id FROM categories_service_guided_start_parameters WHERE categories_service_guided_start_parameters_categories_id = &#039;8&#039;
+[23-Oct-2018 15:35:23 Europe/Berlin] SQL Query: SELECT tooltip FROM users WHERE 1
+[23-Oct-2018 15:35:23 Europe/Berlin] SQL Error 1054: Unknown column 'tooltip' in 'field list'
+[23-Oct-2018 15:35:23 Europe/Berlin] SQL Query: SELECT devices_title_id, devices_title_title FROM devices_title
+[23-Oct-2018 15:35:23 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:35:23 Europe/Berlin] SQL Query: SELECT id, concat( title,&#039; &lt;b&gt;[&#039;, code, &#039;]&lt;/b&gt;&#039;) as title, ancestry FROM categories ORDER BY code, LENGTH(code), path_to  
+[23-Oct-2018 15:35:26 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:35:26 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:35:26 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:35:26 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:35:26 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:35:26 Europe/Berlin] SQL Query: SELECT DISTINCT(device_id) FROM serial_numbers
+[23-Oct-2018 15:35:26 Europe/Berlin] SQL Query: SELECT tooltip FROM users WHERE 1
+[23-Oct-2018 15:35:26 Europe/Berlin] SQL Error 1054: Unknown column 'tooltip' in 'field list'
+[23-Oct-2018 15:35:26 Europe/Berlin] SQL Query: SELECT devices_title_id, devices_title_title FROM devices_title
+[23-Oct-2018 15:35:26 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:35:26 Europe/Berlin] SQL Query: SELECT id, concat( title,&#039; &lt;b&gt;[&#039;, code, &#039;]&lt;/b&gt;&#039;) as title, ancestry FROM categories ORDER BY code, LENGTH(code), path_to  
+[23-Oct-2018 15:35:26 Europe/Berlin] SQL Query: SELECT COUNT(*) FROM devices WHERE kzu = &#039;1232342211166&#039; AND id != &#039;119&#039;
+[23-Oct-2018 15:35:26 Europe/Berlin] SQL Query: SELECT devices_title_title FROM devices_title WHERE devices_title_id = 49
+[23-Oct-2018 15:35:26 Europe/Berlin] SQL Query: UPDATE devices SET kzu = &#039;1232342211166&#039;, devices_title_devices_title_id = &#039;49&#039;, category_id = &#039;8&#039;, setup_zero = &#039;1&#039;, warranty = &#039;24&#039;, warranty_service = &#039;1&#039;, warranty_service_months = &#039;12&#039;, description = &#039;&#039;, setup = &#039;0&#039;, visible = &#039;0&#039;, updated_at = &#039;2018-10-23 15:35:26&#039;, title = &#039;CGB-2K-24&#039; WHERE id = &#039;119&#039;
+[23-Oct-2018 15:35:27 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:35:27 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:35:27 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:35:27 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:35:27 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:35:27 Europe/Berlin] SQL Query: SELECT DISTINCT(device_id) FROM serial_numbers
+[23-Oct-2018 15:35:27 Europe/Berlin] SQL Query: SELECT d.* FROM devices d 
+                LEFT JOIN categories c ON (d.category_id = c.id) 
+                 ORDER BY kzu ASC
+[23-Oct-2018 15:35:27 Europe/Berlin] SQL Query: SELECT d.* FROM devices d 
+                LEFT JOIN categories c ON (d.category_id = c.id) 
+                 ORDER BY kzu ASC  LIMIT 0, 30
+[23-Oct-2018 15:35:58 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:35:58 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:35:58 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:35:58 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:35:58 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:35:58 Europe/Berlin] SQL Query: SELECT DISTINCT(device_id) FROM serial_numbers
+[23-Oct-2018 15:35:58 Europe/Berlin] SQL Query: SELECT * FROM devices WHERE id = &#039;119&#039; LIMIT 1
+[23-Oct-2018 15:35:58 Europe/Berlin] SQL Query: SELECT tooltip FROM users WHERE 1
+[23-Oct-2018 15:35:58 Europe/Berlin] SQL Error 1054: Unknown column 'tooltip' in 'field list'
+[23-Oct-2018 15:35:58 Europe/Berlin] SQL Query: SELECT devices_title_id, devices_title_title FROM devices_title
+[23-Oct-2018 15:35:58 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:35:58 Europe/Berlin] SQL Query: SELECT id, concat( title,&#039; &lt;b&gt;[&#039;, code, &#039;]&lt;/b&gt;&#039;) as title, ancestry FROM categories ORDER BY code, LENGTH(code), path_to  
+[23-Oct-2018 15:35:58 Europe/Berlin] SQL Query: SELECT categories_zero_guided_start_category_required_id FROM categories_zero_guided_start WHERE categories_zero_guided_start_categories_id = &#039;8&#039;
+[23-Oct-2018 15:35:58 Europe/Berlin] SQL Query: SELECT categories_service_guided_start_parameters_category_required_id FROM categories_service_guided_start_parameters WHERE categories_service_guided_start_parameters_categories_id = &#039;8&#039;
+[23-Oct-2018 15:35:58 Europe/Berlin] SQL Query: SELECT tooltip FROM users WHERE 1
+[23-Oct-2018 15:35:58 Europe/Berlin] SQL Error 1054: Unknown column 'tooltip' in 'field list'
+[23-Oct-2018 15:35:58 Europe/Berlin] SQL Query: SELECT devices_title_id, devices_title_title FROM devices_title
+[23-Oct-2018 15:35:58 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:35:58 Europe/Berlin] SQL Query: SELECT id, concat( title,&#039; &lt;b&gt;[&#039;, code, &#039;]&lt;/b&gt;&#039;) as title, ancestry FROM categories ORDER BY code, LENGTH(code), path_to  
+[23-Oct-2018 15:36:49 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:36:49 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:36:49 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:36:49 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:36:49 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:36:49 Europe/Berlin] SQL Query: SELECT DISTINCT(device_id) FROM serial_numbers
+[23-Oct-2018 15:36:49 Europe/Berlin] SQL Query: SELECT tooltip FROM users WHERE 1
+[23-Oct-2018 15:36:49 Europe/Berlin] SQL Error 1054: Unknown column 'tooltip' in 'field list'
+[23-Oct-2018 15:36:49 Europe/Berlin] SQL Query: SELECT devices_title_id, devices_title_title FROM devices_title
+[23-Oct-2018 15:36:49 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:36:49 Europe/Berlin] SQL Query: SELECT id, concat( title,&#039; &lt;b&gt;[&#039;, code, &#039;]&lt;/b&gt;&#039;) as title, ancestry FROM categories ORDER BY code, LENGTH(code), path_to  
+[23-Oct-2018 15:36:49 Europe/Berlin] SQL Query: SELECT COUNT(*) FROM devices WHERE kzu = &#039;1232342211166&#039; AND id != &#039;119&#039;
+[23-Oct-2018 15:36:49 Europe/Berlin] SQL Query: SELECT devices_title_title FROM devices_title WHERE devices_title_id = 49
+[23-Oct-2018 15:36:49 Europe/Berlin] SQL Query: UPDATE devices SET kzu = &#039;1232342211166&#039;, devices_title_devices_title_id = &#039;49&#039;, category_id = &#039;8&#039;, setup_zero = &#039;1&#039;, setup = &#039;1&#039;, warranty = &#039;24&#039;, warranty_service = &#039;1&#039;, warranty_service_months = &#039;12&#039;, description = &#039;&#039;, visible = &#039;0&#039;, updated_at = &#039;2018-10-23 15:36:49&#039;, title = &#039;CGB-2K-24&#039; WHERE id = &#039;119&#039;
+[23-Oct-2018 15:36:50 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:36:50 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:36:50 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:36:50 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:36:50 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:36:50 Europe/Berlin] SQL Query: SELECT DISTINCT(device_id) FROM serial_numbers
+[23-Oct-2018 15:36:50 Europe/Berlin] SQL Query: SELECT d.* FROM devices d 
+                LEFT JOIN categories c ON (d.category_id = c.id) 
+                 ORDER BY kzu ASC
+[23-Oct-2018 15:36:50 Europe/Berlin] SQL Query: SELECT d.* FROM devices d 
+                LEFT JOIN categories c ON (d.category_id = c.id) 
+                 ORDER BY kzu ASC  LIMIT 0, 30
+[23-Oct-2018 15:37:02 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:37:02 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:37:02 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:37:02 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:37:02 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:37:02 Europe/Berlin] SQL Query: SELECT DISTINCT(device_id) FROM serial_numbers
+[23-Oct-2018 15:37:02 Europe/Berlin] SQL Query: SELECT * FROM devices WHERE id = &#039;119&#039; LIMIT 1
+[23-Oct-2018 15:37:03 Europe/Berlin] SQL Query: SELECT tooltip FROM users WHERE 1
+[23-Oct-2018 15:37:03 Europe/Berlin] SQL Error 1054: Unknown column 'tooltip' in 'field list'
+[23-Oct-2018 15:37:03 Europe/Berlin] SQL Query: SELECT devices_title_id, devices_title_title FROM devices_title
+[23-Oct-2018 15:37:03 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:37:03 Europe/Berlin] SQL Query: SELECT id, concat( title,&#039; &lt;b&gt;[&#039;, code, &#039;]&lt;/b&gt;&#039;) as title, ancestry FROM categories ORDER BY code, LENGTH(code), path_to  
+[23-Oct-2018 15:37:03 Europe/Berlin] SQL Query: SELECT categories_zero_guided_start_category_required_id FROM categories_zero_guided_start WHERE categories_zero_guided_start_categories_id = &#039;8&#039;
+[23-Oct-2018 15:37:03 Europe/Berlin] SQL Query: SELECT categories_service_guided_start_parameters_category_required_id FROM categories_service_guided_start_parameters WHERE categories_service_guided_start_parameters_categories_id = &#039;8&#039;
+[23-Oct-2018 15:37:03 Europe/Berlin] SQL Query: SELECT tooltip FROM users WHERE 1
+[23-Oct-2018 15:37:03 Europe/Berlin] SQL Error 1054: Unknown column 'tooltip' in 'field list'
+[23-Oct-2018 15:37:03 Europe/Berlin] SQL Query: SELECT devices_title_id, devices_title_title FROM devices_title
+[23-Oct-2018 15:37:03 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:37:03 Europe/Berlin] SQL Query: SELECT id, concat( title,&#039; &lt;b&gt;[&#039;, code, &#039;]&lt;/b&gt;&#039;) as title, ancestry FROM categories ORDER BY code, LENGTH(code), path_to  
+[23-Oct-2018 15:37:38 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:37:38 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:37:38 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:37:38 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:37:38 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:37:38 Europe/Berlin] SQL Query: SELECT DISTINCT(device_id) FROM serial_numbers
+[23-Oct-2018 15:37:38 Europe/Berlin] SQL Query: SELECT tooltip FROM users WHERE 1
+[23-Oct-2018 15:37:38 Europe/Berlin] SQL Error 1054: Unknown column 'tooltip' in 'field list'
+[23-Oct-2018 15:37:38 Europe/Berlin] SQL Query: SELECT devices_title_id, devices_title_title FROM devices_title
+[23-Oct-2018 15:37:38 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:37:38 Europe/Berlin] SQL Query: SELECT id, concat( title,&#039; &lt;b&gt;[&#039;, code, &#039;]&lt;/b&gt;&#039;) as title, ancestry FROM categories ORDER BY code, LENGTH(code), path_to  
+[23-Oct-2018 15:37:38 Europe/Berlin] SQL Query: SELECT DISTINCT(devices_title_devices_title_id) FROM devices
+[23-Oct-2018 15:37:38 Europe/Berlin] SQL Query: SELECT * FROM devices_title WHERE devices_title_id = &#039;49&#039; LIMIT 1
+[23-Oct-2018 15:37:38 Europe/Berlin] SQL Query: SELECT id, category_parts_name FROM category_parts WHERE visible = 1 
+[23-Oct-2018 15:37:38 Europe/Berlin] SQL Query: SELECT devices_title_file_hash, devices_title_file_id, devices_title_file_name, devices_title_file_orginal_name FROM devices_title_file WHERE devices_title_file_devices_title_id = &#039;49&#039;
+[23-Oct-2018 15:37:38 Europe/Berlin] SQL Query: 
+                        SELECT
+                            arrangement_of_parts_files_id, arrangement_of_parts_files_name, arrangement_of_parts_files_hash, arrangement_of_parts_files_orginal_name, arrangement_of_parts_files_parts_category
+                        FROM 
+                            arrangement_of_parts_files
+                        WHERE
+                            arrangement_of_parts_files_devices_title_id = 49
+                        
+[23-Oct-2018 15:37:38 Europe/Berlin] SQL Query: SELECT DISTINCT(devices_title_devices_title_id) FROM devices
+[23-Oct-2018 15:37:38 Europe/Berlin] SQL Query: SELECT id, category_parts_name FROM category_parts WHERE visible = 1 
+[23-Oct-2018 15:37:56 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:37:56 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:37:56 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:37:56 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:37:56 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:37:56 Europe/Berlin] SQL Query: SELECT DISTINCT(device_id) FROM serial_numbers
+[23-Oct-2018 15:37:56 Europe/Berlin] SQL Query: SELECT * FROM devices WHERE id = &#039;119&#039; LIMIT 1
+[23-Oct-2018 15:37:56 Europe/Berlin] SQL Query: SELECT tooltip FROM users WHERE 1
+[23-Oct-2018 15:37:56 Europe/Berlin] SQL Error 1054: Unknown column 'tooltip' in 'field list'
+[23-Oct-2018 15:37:56 Europe/Berlin] SQL Query: SELECT devices_title_id, devices_title_title FROM devices_title
+[23-Oct-2018 15:37:56 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:37:56 Europe/Berlin] SQL Query: SELECT id, concat( title,&#039; &lt;b&gt;[&#039;, code, &#039;]&lt;/b&gt;&#039;) as title, ancestry FROM categories ORDER BY code, LENGTH(code), path_to  
+[23-Oct-2018 15:37:56 Europe/Berlin] SQL Query: SELECT categories_zero_guided_start_category_required_id FROM categories_zero_guided_start WHERE categories_zero_guided_start_categories_id = &#039;8&#039;
+[23-Oct-2018 15:37:56 Europe/Berlin] SQL Query: SELECT categories_service_guided_start_parameters_category_required_id FROM categories_service_guided_start_parameters WHERE categories_service_guided_start_parameters_categories_id = &#039;8&#039;
+[23-Oct-2018 15:37:56 Europe/Berlin] SQL Query: SELECT tooltip FROM users WHERE 1
+[23-Oct-2018 15:37:56 Europe/Berlin] SQL Error 1054: Unknown column 'tooltip' in 'field list'
+[23-Oct-2018 15:37:56 Europe/Berlin] SQL Query: SELECT devices_title_id, devices_title_title FROM devices_title
+[23-Oct-2018 15:37:56 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:37:56 Europe/Berlin] SQL Query: SELECT id, concat( title,&#039; &lt;b&gt;[&#039;, code, &#039;]&lt;/b&gt;&#039;) as title, ancestry FROM categories ORDER BY code, LENGTH(code), path_to  
+[23-Oct-2018 15:39:13 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:39:13 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:39:13 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:39:13 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:39:13 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:39:13 Europe/Berlin] SQL Query: SELECT DISTINCT(device_id) FROM serial_numbers
+[23-Oct-2018 15:39:13 Europe/Berlin] SQL Query: SELECT tooltip FROM users WHERE 1
+[23-Oct-2018 15:39:13 Europe/Berlin] SQL Error 1054: Unknown column 'tooltip' in 'field list'
+[23-Oct-2018 15:39:13 Europe/Berlin] SQL Query: SELECT devices_title_id, devices_title_title FROM devices_title
+[23-Oct-2018 15:39:13 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:39:13 Europe/Berlin] SQL Query: SELECT id, concat( title,&#039; &lt;b&gt;[&#039;, code, &#039;]&lt;/b&gt;&#039;) as title, ancestry FROM categories ORDER BY code, LENGTH(code), path_to  
+[23-Oct-2018 15:39:13 Europe/Berlin] SQL Query: SELECT COUNT(*) FROM devices WHERE kzu = &#039;1232342211166&#039; AND id != &#039;119&#039;
+[23-Oct-2018 15:39:13 Europe/Berlin] SQL Query: SELECT devices_title_title FROM devices_title WHERE devices_title_id = 49
+[23-Oct-2018 15:39:13 Europe/Berlin] SQL Query: UPDATE devices SET kzu = &#039;1232342211166&#039;, devices_title_devices_title_id = &#039;49&#039;, category_id = &#039;8&#039;, setup_zero = &#039;1&#039;, setup = &#039;1&#039;, warranty = &#039;24&#039;, warranty_service = &#039;1&#039;, warranty_service_months = &#039;12, 24&#039;, description = &#039;&#039;, visible = &#039;0&#039;, updated_at = &#039;2018-10-23 15:39:13&#039;, title = &#039;CGB-2K-24&#039; WHERE id = &#039;119&#039;
+[23-Oct-2018 15:39:14 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:39:14 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:39:14 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:39:14 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:39:14 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:39:14 Europe/Berlin] SQL Query: SELECT DISTINCT(device_id) FROM serial_numbers
+[23-Oct-2018 15:39:14 Europe/Berlin] SQL Query: SELECT d.* FROM devices d 
+                LEFT JOIN categories c ON (d.category_id = c.id) 
+                 ORDER BY kzu ASC
+[23-Oct-2018 15:39:14 Europe/Berlin] SQL Query: SELECT d.* FROM devices d 
+                LEFT JOIN categories c ON (d.category_id = c.id) 
+                 ORDER BY kzu ASC  LIMIT 0, 30
+[23-Oct-2018 15:39:17 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:39:17 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:39:17 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:39:17 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:39:17 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:39:17 Europe/Berlin] SQL Query: SELECT DISTINCT(device_id) FROM serial_numbers
+[23-Oct-2018 15:39:17 Europe/Berlin] SQL Query: SELECT * FROM devices WHERE id = &#039;119&#039; LIMIT 1
+[23-Oct-2018 15:39:17 Europe/Berlin] SQL Query: SELECT tooltip FROM users WHERE 1
+[23-Oct-2018 15:39:17 Europe/Berlin] SQL Error 1054: Unknown column 'tooltip' in 'field list'
+[23-Oct-2018 15:39:17 Europe/Berlin] SQL Query: SELECT devices_title_id, devices_title_title FROM devices_title
+[23-Oct-2018 15:39:17 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:39:17 Europe/Berlin] SQL Query: SELECT id, concat( title,&#039; &lt;b&gt;[&#039;, code, &#039;]&lt;/b&gt;&#039;) as title, ancestry FROM categories ORDER BY code, LENGTH(code), path_to  
+[23-Oct-2018 15:39:17 Europe/Berlin] SQL Query: SELECT categories_zero_guided_start_category_required_id FROM categories_zero_guided_start WHERE categories_zero_guided_start_categories_id = &#039;8&#039;
+[23-Oct-2018 15:39:17 Europe/Berlin] SQL Query: SELECT categories_service_guided_start_parameters_category_required_id FROM categories_service_guided_start_parameters WHERE categories_service_guided_start_parameters_categories_id = &#039;8&#039;
+[23-Oct-2018 15:39:17 Europe/Berlin] SQL Query: SELECT tooltip FROM users WHERE 1
+[23-Oct-2018 15:39:17 Europe/Berlin] SQL Error 1054: Unknown column 'tooltip' in 'field list'
+[23-Oct-2018 15:39:17 Europe/Berlin] SQL Query: SELECT devices_title_id, devices_title_title FROM devices_title
+[23-Oct-2018 15:39:17 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:39:17 Europe/Berlin] SQL Query: SELECT id, concat( title,&#039; &lt;b&gt;[&#039;, code, &#039;]&lt;/b&gt;&#039;) as title, ancestry FROM categories ORDER BY code, LENGTH(code), path_to  
+[23-Oct-2018 15:39:28 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:39:28 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:39:28 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:39:28 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:39:28 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:39:28 Europe/Berlin] SQL Query: SELECT DISTINCT(device_id) FROM serial_numbers
+[23-Oct-2018 15:39:28 Europe/Berlin] SQL Query: SELECT tooltip FROM users WHERE 1
+[23-Oct-2018 15:39:28 Europe/Berlin] SQL Error 1054: Unknown column 'tooltip' in 'field list'
+[23-Oct-2018 15:39:28 Europe/Berlin] SQL Query: SELECT devices_title_id, devices_title_title FROM devices_title
+[23-Oct-2018 15:39:28 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:39:28 Europe/Berlin] SQL Query: SELECT id, concat( title,&#039; &lt;b&gt;[&#039;, code, &#039;]&lt;/b&gt;&#039;) as title, ancestry FROM categories ORDER BY code, LENGTH(code), path_to  
+[23-Oct-2018 15:39:28 Europe/Berlin] SQL Query: SELECT COUNT(*) FROM devices WHERE kzu = &#039;1232342211166&#039; AND id != &#039;119&#039;
+[23-Oct-2018 15:39:28 Europe/Berlin] SQL Query: SELECT devices_title_title FROM devices_title WHERE devices_title_id = 49
+[23-Oct-2018 15:39:28 Europe/Berlin] SQL Query: UPDATE devices SET kzu = &#039;1232342211166&#039;, devices_title_devices_title_id = &#039;49&#039;, category_id = &#039;8&#039;, setup_zero = &#039;1&#039;, setup = &#039;1&#039;, warranty = &#039;24&#039;, warranty_service = &#039;1&#039;, warranty_service_months = &#039;12, 24&#039;, description = &#039;&#039;, visible = &#039;0&#039;, updated_at = &#039;2018-10-23 15:39:28&#039;, title = &#039;CGB-2K-24&#039; WHERE id = &#039;119&#039;
+[23-Oct-2018 15:39:29 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:39:29 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:39:29 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:39:29 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:39:29 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:39:29 Europe/Berlin] SQL Query: SELECT DISTINCT(device_id) FROM serial_numbers
+[23-Oct-2018 15:39:29 Europe/Berlin] SQL Query: SELECT d.* FROM devices d 
+                LEFT JOIN categories c ON (d.category_id = c.id) 
+                 ORDER BY kzu ASC
+[23-Oct-2018 15:39:29 Europe/Berlin] SQL Query: SELECT d.* FROM devices d 
+                LEFT JOIN categories c ON (d.category_id = c.id) 
+                 ORDER BY kzu ASC  LIMIT 0, 30
+[23-Oct-2018 15:39:34 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:39:34 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:39:34 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:39:34 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:39:34 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:39:34 Europe/Berlin] SQL Query: SELECT DISTINCT(device_id) FROM serial_numbers
+[23-Oct-2018 15:39:34 Europe/Berlin] SQL Query: SELECT * FROM devices WHERE id = &#039;119&#039; LIMIT 1
+[23-Oct-2018 15:39:34 Europe/Berlin] SQL Query: SELECT tooltip FROM users WHERE 1
+[23-Oct-2018 15:39:34 Europe/Berlin] SQL Error 1054: Unknown column 'tooltip' in 'field list'
+[23-Oct-2018 15:39:34 Europe/Berlin] SQL Query: SELECT devices_title_id, devices_title_title FROM devices_title
+[23-Oct-2018 15:39:34 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:39:34 Europe/Berlin] SQL Query: SELECT id, concat( title,&#039; &lt;b&gt;[&#039;, code, &#039;]&lt;/b&gt;&#039;) as title, ancestry FROM categories ORDER BY code, LENGTH(code), path_to  
+[23-Oct-2018 15:39:34 Europe/Berlin] SQL Query: SELECT categories_zero_guided_start_category_required_id FROM categories_zero_guided_start WHERE categories_zero_guided_start_categories_id = &#039;8&#039;
+[23-Oct-2018 15:39:34 Europe/Berlin] SQL Query: SELECT categories_service_guided_start_parameters_category_required_id FROM categories_service_guided_start_parameters WHERE categories_service_guided_start_parameters_categories_id = &#039;8&#039;
+[23-Oct-2018 15:39:34 Europe/Berlin] SQL Query: SELECT tooltip FROM users WHERE 1
+[23-Oct-2018 15:39:34 Europe/Berlin] SQL Error 1054: Unknown column 'tooltip' in 'field list'
+[23-Oct-2018 15:39:34 Europe/Berlin] SQL Query: SELECT devices_title_id, devices_title_title FROM devices_title
+[23-Oct-2018 15:39:34 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:39:34 Europe/Berlin] SQL Query: SELECT id, concat( title,&#039; &lt;b&gt;[&#039;, code, &#039;]&lt;/b&gt;&#039;) as title, ancestry FROM categories ORDER BY code, LENGTH(code), path_to  
+[23-Oct-2018 15:42:40 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:42:40 Europe/Berlin] SQL Query: SELECT id, role, entitled, company_id, aspg_can_service, email, expire_date FROM users WHERE id = &#039;1&#039;
+[23-Oct-2018 15:42:40 Europe/Berlin] SQL Query: SELECT role_modul_access FROM user_roles WHERE role_id = &#039;administrator&#039;
+[23-Oct-2018 15:42:40 Europe/Berlin] SQL Query: SELECT count(*) FROM users WHERE email = &#039;maciej.kura@artplus.pl&#039; AND verification_hash = &#039;46ed7dc92165ceca93da4386912a1547&#039; AND active = &#039;1&#039;
+[23-Oct-2018 15:42:40 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:42:40 Europe/Berlin] SQL Query: SELECT DISTINCT(device_id) FROM serial_numbers
+[23-Oct-2018 15:42:40 Europe/Berlin] SQL Query: SELECT tooltip FROM users WHERE 1
+[23-Oct-2018 15:42:40 Europe/Berlin] SQL Error 1054: Unknown column 'tooltip' in 'field list'
+[23-Oct-2018 15:42:40 Europe/Berlin] SQL Query: SELECT devices_title_id, devices_title_title FROM devices_title
+[23-Oct-2018 15:42:40 Europe/Berlin] SQL Query: SELECT id, concat( path_to,&#039; [&#039;, code, &#039;]&#039;) FROM categories 
+[23-Oct-2018 15:42:40 Europe/Berlin] SQL Query: SELECT id, concat( title,&#039; &lt;b&gt;[&#039;, code, &#039;]&lt;/b&gt;&#039;) as title, ancestry FROM categories ORDER BY code, LENGTH(code), path_to  
+[23-Oct-2018 15:42:40 Europe/Berlin] SQL Query: SELECT DISTINCT(devices_title_devices_title_id) FROM devices
+[23-Oct-2018 15:42:40 Europe/Berlin] SQL Query: SELECT * FROM devices_title WHERE devices_title_id = &#039;49&#039; LIMIT 1
+[23-Oct-2018 15:42:40 Europe/Berlin] SQL Query: SELECT id, category_parts_name FROM category_parts WHERE visible = 1 
+[23-Oct-2018 15:42:40 Europe/Berlin] SQL Query: SELECT devices_title_file_hash, devices_title_file_id, devices_title_file_name, devices_title_file_orginal_name FROM devices_title_file WHERE devices_title_file_devices_title_id = &#039;49&#039;
+[23-Oct-2018 15:42:40 Europe/Berlin] SQL Query: 
+                        SELECT
+                            arrangement_of_parts_files_id, arrangement_of_parts_files_name, arrangement_of_parts_files_hash, arrangement_of_parts_files_orginal_name, arrangement_of_parts_files_parts_category
+                        FROM 
+                            arrangement_of_parts_files
+                        WHERE
+                            arrangement_of_parts_files_devices_title_id = 49
+                        
+[23-Oct-2018 15:42:40 Europe/Berlin] SQL Query: SELECT DISTINCT(devices_title_devices_title_id) FROM devices
+[23-Oct-2018 15:42:40 Europe/Berlin] SQL Query: SELECT id, category_parts_name FROM category_parts WHERE visible = 1 

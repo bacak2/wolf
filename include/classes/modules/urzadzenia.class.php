@@ -618,18 +618,28 @@ class ModulUrzadzenia extends ModulBazowy{
 
         function putImportedElements($objPHPExcel, $rowNumber){
 
+            $categoryCode = $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(2, $rowNumber)->getValue();
+            $categoryId = 0; // get id from categories where code = $categoryCode
+            $setup = 1;//or 0, get this from excell cell    //uruchomienie serwisowe
+            $setupZero = 1;//jw.                            //pierwsze uruchomienie
             $data = array(
-                'name' => $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(0, $rowNumber)->getValue(),
-                'street' => $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(1, $rowNumber)->getValue(),
-                'phone_number' => $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(2, $rowNumber)->getValue() ? $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(2, $rowNumber)->getValue() : $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(3, $rowNumber)->getValue(),
-                'discount' => 0,
+                'title' => $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(0, $rowNumber)->getValue(),
+                'devices_title_devices_title_id' => 2,// !! przerobić to jeszcze
+                'kzu' => $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(1, $rowNumber)->getValue(),
+                'description' => $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(5, $rowNumber)->getValue(),
+                'setup' => 0,
+                'setup_zero' => 0,
+                'devices_cost_of_repair' => 0,
+                'category_id' => $categoryId,
+                'warranty' => $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(3, $rowNumber)->getValue(),
                 'created_at' => date("Y-m-d H:i:s"),
                 'updated_at' => date("Y-m-d H:i:s"),
-                'isrmc' => 3,
-                'idrmc' => 2, //nie wiem co to ale wszystkie w bazie mają 2
+                'warranty_service' => 1, // !co znaczy 1?
+                'warranty_service_months' => $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(4, $rowNumber)->getValue(),
+                'visible' => 1,
             );
 
-            $insert = $this->Baza->PrepareInsert('companies', $data);
+            $insert = $this->Baza->PrepareInsert('devices', $data);
             $this->Baza->Query($insert);
 
             exit();

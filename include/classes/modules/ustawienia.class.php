@@ -96,7 +96,7 @@ class ModulUstawienia extends ModulBazowy {
             $GrupyCenowe = array('link' => "?modul=grupy_cenowe&akcja=edycja", 'class' => 'edycja', 'img' => 'pencil.gif', 'desc' => 'Grupy cenowe');
             $ListaRMC = array('link' => "?modul=rmc&akcja=lista&typ=rmc", 'class' => 'lista', 'img' => 'list.gif', 'desc' => 'Lista RMC');
             $DodajRMC = array('link' => "?modul=rmc&akcja=dodawanie&typ=rmc", 'class' => 'dodawanie', 'img' => 'add.gif', 'desc' => 'Dodaj woj do RMC');
-            $ImportujFirmy = array('link' => "?modul=firmy&akcja=import", 'class' => 'dodawanie', 'img' => 'add.gif', 'desc' => 'Import firm');
+            $ImportujFirmy = array('link' => "?modul=firmy&akcja=import", 'class' => 'dodawanie', 'img' => 'add.gif', 'desc' => 'Import firm serwisowych');
             $ImportujUrzadzenia = array('link' => "?modul=urzadzenia&akcja=import", 'class' => 'dodawanie', 'img' => 'add.gif', 'desc' => 'Import urządzeń');
             $ImportujNumerySeryjne = array('link' => "?modul=numery_seryjne&akcja=import", 'class' => 'dodawanie', 'img' => 'add.gif', 'desc' => 'Import numerów seryjnych');
             $ImportujUruchomienia = array('link' => "?modul=zlecenia&akcja=import", 'class' => 'dodawanie', 'img' => 'add.gif', 'desc' => 'Import uruchomień');

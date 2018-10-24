@@ -75,8 +75,8 @@ class ModulZestawienieZlecen extends ModulBazowy {
 
         $this->allowedImportTypes = array('xls','xlsx' ,'ods');
         $this->columnsFormat = '
-            <tr><td rowspan="2">Lp.</td><td colspan="2">Dane zainstalowanych urządzeń</td><td rowspan="2">Data uruchomienia kotłowni</td><td rowspan="2">Rodzaj gazu</td><td rowspan="2">Szczelnośc instalacji</td><td rowspan="2">Ciśnienie statyczne</td><td rowspan="2">Ciśnienie dynamiczne</td><td rowspan="2">Filtr gazu</td><td rowspan="2">Napięcie elektryczne</td><td colspan="4">Dane użytkownika</td></tr>
-            <tr><td>Urządzenie</td><td>Numer seryjny</td><td>Imię i Nazwisko</td><td>Adres</td><td>Telefon</td><td>e-mail</td></tr>
+            <tr><td rowspan="2">Lp.</td><td colspan="2">Dane zainstalowanych urządzeń</td><td rowspan="2">Data uruchomienia kotłowni</td><td rowspan="2">Rodzaj gazu</td><td rowspan="2">Szczelnośc instalacji</td><td rowspan="2">Ciśnienie statyczne</td><td rowspan="2">Ciśnienie dynamiczne</td><td rowspan="2">Filtr gazu</td><td rowspan="2">Napięcie elektryczne</td><td colspan="4">Dane użytkownika</td><td colspan="5">Dane sprzedającego</td><td colspan="4">Dane firmy instalującej</td><td colspan="4">Dane firmy uruchamiającej</td></tr>
+            <tr><td>Urządzenie</td><td>Numer seryjny</td><td>Imię i Nazwisko</td><td>Adres</td><td>Telefon</td><td>e-mail</td><td>Nazwa firmy</td><td>E-mail</td><td>Telefon</td><td>Data sprzedaży</td><td>Nr autoryzacji</td><td>Nazwa firmy</td><td>E-mail</td><td>Telefon</td><td>Data montażu</td><td>Nazwa firmy</td><td>E-mail</td><td>Telefon</td><td>Data montażu</td></tr>
             ';
         $this->importTitle = 'uruchomienia';
 
@@ -1162,7 +1162,7 @@ class ModulZestawienieZlecen extends ModulBazowy {
             $Formularz->WyswietlDane($Dane);
 	}
 
-	function putImportedElements(){
+	function putImportedElements($objPHPExcel, $rowNumber){
         $serialNumberId = $this->Baza->GetLastInsertID();
 
         //prepare and insert item
@@ -1178,6 +1178,20 @@ class ModulZestawienieZlecen extends ModulBazowy {
         $clientAddress = $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(11, $rowNumber)->getValue();
         $clientPhone = $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(12, $rowNumber)->getValue();
         $clientMail = $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(13, $rowNumber)->getValue();
+        $serialNumber = $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(2, $rowNumber)->getValue();
+        $servicemanMail = $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(24, $rowNumber)->getValue();
+
+        $deviceId = $this->Baza->GetValue("SELECT device_id FROM serial_numbers WHERE snu = '{$serialNumber}' AND CHAR_LENGTH(snu) = CHAR_LENGTH('{$serialNumber}')");
+        if(!$deviceId){
+            echo Usefull::ShowKomunikatOstrzezenie("nie zaimporowano wiersza nr $rowNumber - nie znaleziono urządzenia o numerze seryjnym $serialNumber<br>");
+            return false;
+        }
+
+        $companyId = $this->Baza->GetValue("SELECT id FROM users WHERE email = '{$servicemanMail}' AND CHAR_LENGTH(email) = CHAR_LENGTH('{$servicemanMail}')");
+        if(!$companyId || !$servicemanMail){
+            echo Usefull::ShowKomunikatOstrzezenie("nie zaimporowano wiersza nr $rowNumber - nie znaleziono serwisanta o adresie email: $servicemanMail<br>");
+            return false;
+        }
 
         $itemData = array(
             'devices_id' => $deviceId,
@@ -1186,6 +1200,7 @@ class ModulZestawienieZlecen extends ModulBazowy {
             'created_at' => date("Y-m-d H:i:s"),
             'updated_at' => date("Y-m-d H:i:s"),
             'happened_at' => $happenedAt,
+            'company_id' => $companyId,
             'client_companyname' => '',
             'client_firstname' => $clientName,
             'client_surname' => '',
@@ -1197,6 +1212,7 @@ class ModulZestawienieZlecen extends ModulBazowy {
             'client_phone' => $clientPhone,
             'client_email' => $clientMail,
             'no_warranty_description' => '',
+            'status' => 0,
             'rbh_amount' => 0,
             'number_of_people' => 0,
             'rbh' => 0,
@@ -1207,6 +1223,8 @@ class ModulZestawienieZlecen extends ModulBazowy {
             echo Usefull::ShowKomunikatOstrzezenie("nie zaimporowano wiersza nr $rowNumber - błąd przy wprowadzaniu uruchomienia<br>");
             return false;
         }
+
+        if($rowNumber == 10) exit();
     }
   
 }

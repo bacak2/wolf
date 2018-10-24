@@ -72,7 +72,7 @@ class ModulNumerySeryjne extends ModulBazowy {
 
             $this->allowedImportTypes = array('xls','xlsx' ,'ods');
             $this->columnsFormat = '
-                <tr><td rowspan="2">Lp.</td><td colspan="2">Dane zainstalowanych urządzeń</td></tr>
+                <tr><td rowspan="2">Lp.</td><td colspan="2">Dane urządzeń</td></tr>
                 <tr><td>Urządzenie</td><td>Numer seryjny</td></tr>
                 ';
             $this->importTitle = 'numery seryjne';
@@ -663,7 +663,8 @@ class ModulNumerySeryjne extends ModulBazowy {
             }
 
             //check if in DB is device of this name
-            $deviceId = $this->Baza->GetValue("SELECT id FROM devices WHERE title = '{$deviceTitle}'");
+            $deviceId = $this->Baza->GetData("SELECT id, warranty_service, warranty, warranty_service_months FROM devices WHERE title = '{$deviceTitle}'");
+
             if(!$deviceId){
                 echo Usefull::ShowKomunikatOstrzezenie("nie zaimporowano wiersza nr $rowNumber - nie znaleziono urządzenia o nazwie $deviceTitle<br>");
                 return false;
@@ -672,7 +673,10 @@ class ModulNumerySeryjne extends ModulBazowy {
             //prepare and insert serial number
             $data = array(
                 'snu' => $snu,
-                'device_id' => $deviceId,
+                'device_id' => $deviceId['id'],
+                'warranty_service' => $deviceId['warranty_service'],
+                'warranty' => $deviceId['warranty'],
+                'warranty_service_months' => $deviceId['warranty_service_months'],
                 'approved' => 1,
                 'created_at' => date("Y-m-d H:i:s"),
                 'updated_at' => date("Y-m-d H:i:s"),

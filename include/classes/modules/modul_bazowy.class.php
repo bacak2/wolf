@@ -2071,7 +2071,7 @@ foreach($Elementy as $Element){
 
         if(is_uploaded_file($tmp_name)){
             $extension = pathinfo($filename, PATHINFO_EXTENSION);
-            if(!in_array($extension, $this->allowedImportTypes)){
+            if(!in_array(strtolower($extension), $this->allowedImportTypes)){
                 echo Usefull::ShowKomunikatError("Wystąpił błąd. Załącznik ma niepoprawne rozszerzenie. Dozwolone rozszerzenia to: ".implode(", ", $this->allowedImportTypes), true);
                 return $this->showImportForm();
             }
@@ -2087,7 +2087,7 @@ foreach($Elementy as $Element){
         $objPHPExcel = PHPExcel_IOFactory::load($importDir.$filename);
         $rowsAmount = $objPHPExcel->setActiveSheetIndex(0)->getHighestRow();
 
-        for($rowNumber = 2; $rowNumber < $rowsAmount; $rowNumber++){
+        for($rowNumber = 2; $rowNumber <= $rowsAmount; $rowNumber++){
             //put imported companies to DB
             $this->putImportedElements($objPHPExcel, $rowNumber);
         }

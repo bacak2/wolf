@@ -619,30 +619,53 @@ class ModulUrzadzenia extends ModulBazowy{
         function putImportedElements($objPHPExcel, $rowNumber){
 
             $categoryCode = $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(2, $rowNumber)->getValue();
-            $categoryId = 0; // get id from categories where code = $categoryCode
-            $setup = 1;//or 0, get this from excell cell    //uruchomienie serwisowe
-            $setupZero = 1;//jw.                            //pierwsze uruchomienie
+            $categoryId = $this->Baza->GetValue("SELECT id FROM categories WHERE code = '{$categoryCode}'");
+            if(!$categoryId){
+                echo Usefull::ShowKomunikatOstrzezenie("nie zaimporowano wiersza nr $rowNumber- podany kod kategorii $categoryCode jest niepoprawny<br>");
+                return false;
+            }
+            $setup = $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(7, $rowNumber)->getValue() ? 1 : 0;//uruchomienie serwisowe
+            $setupZero = $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(6, $rowNumber)->getValue() ? 1 : 0;//pierwsze uruchomienie
+            $warrantyMonths = (string)$objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(4, $rowNumber)->getValue();
+            if(!is_null($warrantyMonths)){
+                $warrantyMonths = explode(',', $warrantyMonths);
+                $warrantyMonths = implode(', ', $warrantyMonths);
+            }
+            $deviceTitle = $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(0, $rowNumber)->getValue();
+
+            $dataDeviceTitle = array(
+                'devices_title_title' => $deviceTitle,
+                'devices_title_cost_of_repair' => 0,
+                );
+
+            $insert = $this->Baza->PrepareInsert('devices_title', $dataDeviceTitle);
+            $this->Baza->Query($insert);
+            $deviceTitleId = $this->Baza->GetLastInsertID();
+
+            if(!$deviceTitleId){
+                echo Usefull::ShowKomunikatOstrzezenie("nie zaimporowano wiersza nr $rowNumber - urządzenie o nazwie $deviceTitle znajduję się już w bazie<br>");
+                return false;
+            }
+
             $data = array(
                 'title' => $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(0, $rowNumber)->getValue(),
-                'devices_title_devices_title_id' => 2,// !! przerobić to jeszcze
+                'devices_title_devices_title_id' => $deviceTitleId,
                 'kzu' => $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(1, $rowNumber)->getValue(),
                 'description' => $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(5, $rowNumber)->getValue(),
-                'setup' => 0,
-                'setup_zero' => 0,
+                'setup' => $setup,
+                'setup_zero' => $setupZero,
                 'devices_cost_of_repair' => 0,
                 'category_id' => $categoryId,
                 'warranty' => $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(3, $rowNumber)->getValue(),
                 'created_at' => date("Y-m-d H:i:s"),
                 'updated_at' => date("Y-m-d H:i:s"),
-                'warranty_service' => 1, // !co znaczy 1?
-                'warranty_service_months' => $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(4, $rowNumber)->getValue(),
+                'warranty_service' => $warrantyMonths ? 1 : 0,
+                'warranty_service_months' => $warrantyMonths,
                 'visible' => 1,
             );
 
             $insert = $this->Baza->PrepareInsert('devices', $data);
             $this->Baza->Query($insert);
-
-            exit();
 
         }
 }

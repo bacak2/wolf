@@ -240,8 +240,15 @@ class ModulFirmy extends ModulBazowy {
 
     function putImportedElements($objPHPExcel, $rowNumber){
 
+        $companyName = $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(0, $rowNumber)->getValue();
+        $email = $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(5, $rowNumber)->getValue();
+        if(!$email){
+            echo Usefull::ShowKomunikatOstrzezenie("nie zaimporowano wiersza nr $rowNumber - brak adresu email dla firmy $companyName<br>");
+            return false;
+        }
+
         $data = array(
-            'name' => $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(0, $rowNumber)->getValue(),
+            'name' => $companyName,
             'street' => $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(1, $rowNumber)->getValue(),
             'phone_number' => $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(2, $rowNumber)->getValue() ? $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(2, $rowNumber)->getValue() : $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(3, $rowNumber)->getValue(),
             'discount' => 0,
@@ -257,7 +264,6 @@ class ModulFirmy extends ModulBazowy {
         $lastInsertedCompany = $this->Baza->GetLastInsertID();
 
         //check in users if there is user who have this email
-        $email = $objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(5, $rowNumber)->getValue();
         $userId = $this->Baza->GetValue("SELECT id FROM users WHERE email = '{$email}' AND CHAR_LENGTH(email) = CHAR_LENGTH('{$email}')");
         $autoryzacja = strtolower($objPHPExcel->getActiveSheet(0)->getCellByColumnAndRow(8, $rowNumber)->getValue());
         if($userId){

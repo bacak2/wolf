@@ -2,66 +2,741 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="060110d3-c3c1-49c7-b3bd-a9520174a162" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Wolf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Wolf.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pliki-excel/AI, AIS, WS.xls" beforeDir="false" afterPath="$PROJECT_DIR$/.pliki-excel/AI, AIS, WS.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pliki-excel/Format_Dane_Serwisowe-WTOREK.XLSX" beforeDir="false" afterPath="$PROJECT_DIR$/.pliki-excel/Format_Dane_Serwisowe-WTOREK.XLSX" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pliki-excel/numery_seryjne.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL/sql.struct" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/sql.struct" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_error_log/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/_error_log/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_error_log/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/_error_log/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_error_log/show_errors.php" beforeDir="false" afterPath="$PROJECT_DIR$/_error_log/show_errors.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/Dokumenty/3063202_201207_protokół uruchomienia.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/Dokumenty/3063202_201207_protokół uruchomienia.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/Dokumenty/Baza_serwisantow_instalatorow_wzor_platforma_2013.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/Dokumenty/Baza_serwisantow_instalatorow_wzor_platforma_2013.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/Dokumenty/Druk_uruchomienie_przeglad_grzewcze_Wolf_luty_2014.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/Dokumenty/Druk_uruchomienie_przeglad_grzewcze_Wolf_luty_2014.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/Dokumenty/Numery_nowe_stare_czesci_zamienne_grzewcze_2013_Wolf.xls" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/Dokumenty/Numery_nowe_stare_czesci_zamienne_grzewcze_2013_Wolf.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/Dokumenty/Preisgruppenblatt Januar 2014(grupy_cenowe).pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/Dokumenty/Preisgruppenblatt Januar 2014(grupy_cenowe).pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/Dokumenty/Preisliste Ersatzteile Lüftung maj 2013.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/Dokumenty/Preisliste Ersatzteile Lüftung maj 2013.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/Dokumenty/Rozliczenie_naprawy_gw_III_2014.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/Dokumenty/Rozliczenie_naprawy_gw_III_2014.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/Dokumenty/ankieta_szkolenie_Wolf_2014_aktywna_reader_1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/Dokumenty/ankieta_szkolenie_Wolf_2014_aktywna_reader_1.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/Dokumenty/ankieta_szkolenie_instalatorskie_aktywna_reader.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/Dokumenty/ankieta_szkolenie_instalatorskie_aktywna_reader.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/Dokumenty/druk zamowienia Promocyjne ZESTAWY SERWISOWE GS_AS_AI_RCSW_VI_2010.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/Dokumenty/druk zamowienia Promocyjne ZESTAWY SERWISOWE GS_AS_AI_RCSW_VI_2010.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/Dokumenty/druk_zamowienia_Wolf_serwis_sty_2014.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/Dokumenty/druk_zamowienia_Wolf_serwis_sty_2014.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/Dokumenty/druk_zamowienia_Wolf_serwis_sty_2014.xlsm" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/Dokumenty/druk_zamowienia_Wolf_serwis_sty_2014.xlsm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/Dokumenty/ersatzteilpreisliste_20121212_red.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/Dokumenty/ersatzteilpreisliste_20121212_red.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/Dokumenty/karta gwarancyjna_technika grzewcza_IX_2013.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/Dokumenty/karta gwarancyjna_technika grzewcza_IX_2013.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/Dokumenty/karta gwarancyjna_wentylacja_2013.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/Dokumenty/karta gwarancyjna_wentylacja_2013.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/Dokumenty/karta_pompy_2012_20_v3_OPEN.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/Dokumenty/karta_pompy_2012_20_v3_OPEN.PDF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/Dokumenty/notatka techniczna WOLF.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/Dokumenty/notatka techniczna WOLF.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/Dokumenty/numerische Auflistung Preisliste Ersatzteile_Januar_2014.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/Dokumenty/numerische Auflistung Preisliste Ersatzteile_Januar_2014.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/Dokumenty/protokol_uruchomienia_przegladow_kotlow_kondensacyjnych_CGB.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/Dokumenty/protokol_uruchomienia_przegladow_kotlow_kondensacyjnych_CGB.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/Dokumenty/protokol_uruchomienia_przegladow_kotlow_kondensacyjnych_CGB.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/Dokumenty/protokol_uruchomienia_przegladow_kotlow_kondensacyjnych_CGB.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/Dokumenty/zestawienia_miesieczne_czesci_na_gwarancji_Wolf-Wzor_sty2013.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/Dokumenty/zestawienia_miesieczne_czesci_na_gwarancji_Wolf-Wzor_sty2013.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/Dokumenty/zgloszenie-rozliczenie_naprawy_gwarancyjnej_Wolf_2012.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/Dokumenty/zgloszenie-rozliczenie_naprawy_gwarancyjnej_Wolf_2012.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/Laczka.png" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/Laczka.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/Laczka.tif" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/Laczka.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/Logo/Logo_EnKs_4c_100%_konv Kopie.eps" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/Logo/Logo_EnKs_4c_100%_konv Kopie.eps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/Logo/logo_wolf.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/Logo/logo_wolf.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/Logo/serwisplus.png" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/Logo/serwisplus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/Logo/wolf_logo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/Logo/wolf_logo.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/Logo/wolf_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/Logo/wolf_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/Wolf_source24112014.zip" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/Wolf_source24112014.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/projekt_0005/Ustawienia.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/projekt_0005/Ustawienia.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/projekt_0005/czesci.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/projekt_0005/czesci.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/projekt_0005/firmy.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/projekt_0005/firmy.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/projekt_0005/home.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/projekt_0005/home.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/projekt_0005/kategorie.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/projekt_0005/kategorie.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/projekt_0005/numeryeryjne.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/projekt_0005/numeryeryjne.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/projekt_0005/urzadzenia.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/projekt_0005/urzadzenia.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/projekt_0005/uzytkownicy.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/projekt_0005/uzytkownicy.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/projekt_0005/zamowienia.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/projekt_0005/zamowienia.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_materialy/projekt_0005/zlecenia.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_materialy/projekt_0005/zlecenia.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configure.php" beforeDir="false" afterPath="$PROJECT_DIR$/configure.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/certificate.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/certificate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/chosen.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/chosen.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/envelope.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/envelope.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/jquery-datepicker-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/jquery-datepicker-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/jquery.datetimepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/jquery.datetimepicker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/jquery.qtip.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/jquery.qtip.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/print.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/print.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style-ie.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style-ie.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/ui.notify.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/ui.notify.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/modules/czesci/120px/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/modules/czesci/120px/bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/modules/czesci/120px/jpg_325_kb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/modules/czesci/120px/jpg_325_kb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/modules/czesci/120px/laczka.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/modules/czesci/120px/laczka.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/modules/czesci/120px/sparepart10a534a0e417f96410001000.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/modules/czesci/120px/sparepart10a534a0e417f96410001000.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/modules/czesci/375px/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/modules/czesci/375px/bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/modules/czesci/375px/jpg_325_kb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/modules/czesci/375px/jpg_325_kb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/modules/czesci/375px/laczka.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/modules/czesci/375px/laczka.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/modules/czesci/375px/sparepart10a534a0e417f96410001000.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/modules/czesci/375px/sparepart10a534a0e417f96410001000.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/modules/czesci/50px/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/modules/czesci/50px/bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/modules/czesci/50px/jpg_325_kb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/modules/czesci/50px/jpg_325_kb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/modules/czesci/50px/laczka.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/modules/czesci/50px/laczka.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/modules/czesci/50px/sparepart10a534a0e417f96410001000.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/modules/czesci/50px/sparepart10a534a0e417f96410001000.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/modules/czesci/840px/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/modules/czesci/840px/bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/modules/czesci/840px/jpg_325_kb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/modules/czesci/840px/jpg_325_kb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/modules/czesci/840px/laczka.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/modules/czesci/840px/laczka.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/modules/czesci/840px/sparepart10a534a0e417f96410001000.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/modules/czesci/840px/sparepart10a534a0e417f96410001000.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/modules/czesci/laczka.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/modules/czesci/laczka.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/modules/czesci/przebieg_funkcji_tgu.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/data/modules/czesci/przebieg_funkcji_tgu.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/modules/czesci/resize/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/modules/czesci/resize/bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/modules/czesci/resize/jpg_325_kb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/modules/czesci/resize/jpg_325_kb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/modules/czesci/resize/laczka.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/modules/czesci/resize/laczka.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/modules/czesci/resize/sparepart10a534a0e417f96410001000.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/modules/czesci/resize/sparepart10a534a0e417f96410001000.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/modules/czesci/sparepart10a534a0e417f96410001000.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/modules/czesci/sparepart10a534a0e417f96410001000.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/modules/kategorie_czesci/1/laczka.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/modules/kategorie_czesci/1/laczka.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/modules/urzadzenia/33/13002441.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/data/modules/urzadzenia/33/13002441.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download.php" beforeDir="false" afterPath="$PROJECT_DIR$/download.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Laczka.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/Laczka.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/accept.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/accept.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/accept.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/accept.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/accept_grey.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/accept_grey.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/accept_red.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/accept_red.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/add.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/add.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/add_grey.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/add_grey.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ajax-loader-big.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/ajax-loader-big.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/anuluj.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/anuluj.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/anuluj_napis.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/anuluj_napis.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/arrow_left.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/arrow_left.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/arrow_left_grey.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/arrow_left_grey.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/arrow_left_new.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/arrow_left_new.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/arrow_left_new_grey.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/arrow_left_new_grey.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/arrow_right.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/arrow_right.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/arrow_right_grey.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/arrow_right_grey.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/arrow_right_new.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/arrow_right_new.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/arrow_right_new_grey.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/arrow_right_new_grey.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/arrow_sort.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/arrow_sort.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/arrow_undo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/arrow_undo.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/arrow_up.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/arrow_up.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/arrow_up_grey.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/arrow_up_grey.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/arrow_up_new.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/arrow_up_new.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/arrow_up_new_grey.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/arrow_up_new_grey.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bg_menu_gora_sz.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/bg_menu_gora_sz.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bg_off.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/bg_off.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bg_on.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/bg_on.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bg_pas_men_gora.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/bg_pas_men_gora.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bgcolor.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/bgcolor.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bin.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/bin.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bin_empty.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/bin_empty.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bin_empty_faktura.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/bin_empty_faktura.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bin_empty_faktura_grey.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/bin_empty_faktura_grey.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bin_empty_grey.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/bin_empty_grey.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bin_grey.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/bin_grey.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bok_menu_pasek_lewy.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/bok_menu_pasek_lewy.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bok_menu_pasek_prawy.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/bok_menu_pasek_prawy.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bold.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/bold.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bullet_error.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/bullet_error.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/button_in.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/button_in.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/button_logowanie.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/button_logowanie.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/button_out.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/button_out.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/calculator.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/calculator.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/calculator_grey.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/calculator_grey.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/calendar.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/calendar.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/calendar_add.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/calendar_add.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/calendar_add_grey.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/calendar_add_grey.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cancel.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/cancel.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cancel_grey.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/cancel_grey.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/centre.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/centre.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/chart_organisation.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/chart_organisation.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/chosen-sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/chosen-sprite.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/chosen-sprite@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/chosen-sprite@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/copy.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/copy.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cross.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/cross.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cut.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/cut.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dalej.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/dalej.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/delete.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/delete.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/delete_grey.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/delete_grey.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dev_back.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/dev_back.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/disk.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/disk.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/do_koszyka.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/do_koszyka.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/do_koszyka_grey.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/do_koszyka_grey.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dodaj.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/dodaj.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dol_logowanie.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/dol_logowanie.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/door.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/door.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/door_in.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/door_in.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/door_open.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/door_open.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/doors.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/doors.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/edytuj.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/edytuj.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/edytuj_zamowienie.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/edytuj_zamowienie.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/email.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/email.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/email.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/email.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/excel.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/excel.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/exclamation.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/exclamation.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/faktura_grey.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/faktura_grey.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/fakturabutton.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/fakturabutton.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/folder_explore.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/folder_explore.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/folder_explore_grey.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/folder_explore_grey.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/good.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/good.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/help.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/help.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hr.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/hr.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hyperlink.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/hyperlink.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/image.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image_edit.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/image_edit.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image_icon.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/image_icon.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/indent.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/indent.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/information.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/information.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/information_grey.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/information_grey.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/italic.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/italic.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/justifyfull.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/justifyfull.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/kalendarz.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/kalendarz.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/key.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/key.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/key_grey.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/key_grey.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/kosz.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/kosz.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/koszyk.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/koszyk.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/koszyk_grey.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/koszyk_grey.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/left_just.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/left_just.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/list.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/list.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/logo.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo_wolf.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/logo_wolf.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/luk_dol_lewy.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/luk_dol_lewy.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/luk_dol_prawy.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/luk_dol_prawy.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/luk_menu_gora_lewy.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/luk_menu_gora_lewy.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/luk_menu_gora_prawy.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/luk_menu_gora_prawy.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/luk_off_L.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/luk_off_L.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/luk_off_P.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/luk_off_P.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/luk_on_L.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/luk_on_L.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/luk_on_P.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/luk_on_P.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/magnifier.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/magnifier.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/magnifier_grey.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/magnifier_grey.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/map.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/map.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/menu-bg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/menu-bg.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/menu-break-pipe.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/menu-break-pipe.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/minus.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/minus.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/money_dollar.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/money_dollar.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/money_dollar_grey.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/money_dollar_grey.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/neg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/neg.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/neu.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/neu.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/notatka.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/notatka.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/note.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/note.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/note_grey.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/note_grey.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/numbered_list.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/numbered_list.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ok.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/ok.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/outdent.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/outdent.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/page_green.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/page_green.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/page_grey.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/page_grey.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/page_paintbrush.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/page_paintbrush.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/page_paintbrush_grey.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/page_paintbrush_grey.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/page_red.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/page_red.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/page_stack.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/page_stack.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/page_stack_grey.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/page_stack_grey.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/page_white_stack.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/page_white_stack.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pasek_logowanie.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/pasek_logowanie.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/paste.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/paste.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pencil.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/pencil.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pencil_faktura.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/pencil_faktura.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pencil_faktura_grey.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/pencil_faktura_grey.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pencil_grey.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/pencil_grey.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/photos.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/photos.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/photos_grey.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/photos_grey.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/picture_edit.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/picture_edit.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/picture_edit_grey.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/picture_edit_grey.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/picture_save.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/picture_save.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/picture_save_grey.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/picture_save_grey.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pliki.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/pliki.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/plus.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/plus.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pomoc.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/pomoc.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pos.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/pos.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/printer.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/printer.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/printer_faktura.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/printer_faktura.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/printer_faktura_w.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/printer_faktura_w.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/printer_grey.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/printer_grey.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/printer_v.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/printer_v.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/printer_vw.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/printer_vw.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/printer_w.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/printer_w.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/przelicz.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/przelicz.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/przypomnij.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/przypomnij.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/redo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/redo.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/report.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/report.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/report_edit.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/report_edit.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/report_edit_grey.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/report_edit_grey.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/report_grey.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/report_grey.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/right_just.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/right_just.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/serwisplus.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/serwisplus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sitemap.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/sitemap.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sitemap_f.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/sitemap_f.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/skasuj.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/skasuj.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/smiley.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/smiley.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sort-arrow-down.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/sort-arrow-down.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sort-arrow-top.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/sort-arrow-top.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/strzala_lewo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/strzala_lewo.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/strzala_prawo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/strzala_prawo.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/tag_blue_edit.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/tag_blue_edit.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/tag_blue_edit_grey.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/tag_blue_edit_grey.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/text_list_bullets.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/text_list_bullets.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/text_list_bullets_grey.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/text_list_bullets_grey.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/textcolor.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/textcolor.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/tick.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/tick.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/tick_blue.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/tick_blue.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/tick_red.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/tick_red.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/toggle-collapse.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/toggle-collapse.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/toggle-expand.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/toggle-expand.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/top_logowanie.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/top_logowanie.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ui-bg_diagonals-thick_18_b81900_40x40.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ui-bg_diagonals-thick_18_b81900_40x40.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ui-bg_diagonals-thick_20_666666_40x40.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ui-bg_diagonals-thick_20_666666_40x40.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ui-bg_flat_10_000000_40x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ui-bg_flat_10_000000_40x100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ui-bg_glass_100_f6f6f6_1x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ui-bg_glass_100_f6f6f6_1x400.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ui-bg_glass_100_fdf5ce_1x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ui-bg_glass_100_fdf5ce_1x400.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ui-bg_glass_65_ffffff_1x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ui-bg_gloss-wave_35_f6a828_500x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ui-bg_gloss-wave_35_f6a828_500x100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ui-icons_222222_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ui-icons_228ef1_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ui-icons_228ef1_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ui-icons_ef8c08_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ui-icons_ef8c08_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ui-icons_ffd27a_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ui-icons_ffd27a_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ui-icons_ffffff_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/underline.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/underline.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/undo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/undo.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/user.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/user.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/user_add.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/user_add.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/wolf_logo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/wolf_logo.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/wolf_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/wolf_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/wyloguj.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/wyloguj.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/wyslij.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/wyslij.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/zamknij.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/zamknij.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/zapisz.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/zapisz.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/zmien.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/zmien.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/zoom.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/zoom.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/ajax/add-to-basket.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/ajax/add-to-basket.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/ajax/check-basket.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/ajax/check-basket.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/ajax/configure.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/ajax/configure.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/forms/forms.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/forms/forms.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/forms/formularz.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/forms/formularz.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/menu.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/menu.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/modules/czesci.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/modules/czesci.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/modules/download.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/modules/download.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/modules/firmy.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/modules/firmy.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/modules/firmy_dane.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/modules/firmy_dane.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/modules/generate_excel.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/modules/generate_excel.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/modules/grupy_cenowe.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/modules/grupy_cenowe.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/modules/kategorie.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/modules/kategorie.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/modules/kategorie_czesci.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/modules/kategorie_czesci.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/modules/kategorie_wymagan.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/modules/kategorie_wymagan.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/modules/koszyk.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/modules/koszyk.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/modules/modul_bazowy.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/modules/modul_bazowy.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/modules/modul_podrzedny.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/modules/modul_podrzedny.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/modules/modul_pusty.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/modules/modul_pusty.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/modules/modul_zabroniony.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/modules/modul_zabroniony.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/modules/numery_seryjne.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/modules/numery_seryjne.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/modules/pulpit.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/modules/pulpit.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/modules/rmc.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/modules/rmc.class.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/classes/modules/urzadzenia.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/modules/urzadzenia.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/modules/urzadzenianazwa.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/modules/urzadzenianazwa.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/modules/usefull-base.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/modules/usefull-base.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/modules/usefull-time.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/modules/usefull-time.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/modules/usefull.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/modules/usefull.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/modules/ustawienia.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/modules/ustawienia.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/modules/uzytkownicy.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/modules/uzytkownicy.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/modules/uzytkownicy_profil.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/modules/uzytkownicy_profil.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/modules/wymagania.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/modules/wymagania.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/modules/zamowienia.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/modules/zamowienia.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/modules/zamowieniafirmy.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/modules/zamowieniafirmy.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/modules/zamowieniauzytkownicy.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/modules/zamowieniauzytkownicy.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/modules/zlecenia.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/modules/zlecenia.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/modules/zlecenia_items.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/modules/zlecenia_items.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/mysql.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/mysql.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/panel.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/panel.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Autoloader.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Autoloader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/CachedObjectStorage/APC.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/CachedObjectStorage/APC.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/CachedObjectStorage/CacheBase.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/CachedObjectStorage/CacheBase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/CachedObjectStorage/DiscISAM.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/CachedObjectStorage/DiscISAM.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/CachedObjectStorage/ICache.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/CachedObjectStorage/ICache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/CachedObjectStorage/Igbinary.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/CachedObjectStorage/Igbinary.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/CachedObjectStorage/Memcache.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/CachedObjectStorage/Memcache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/CachedObjectStorage/Memory.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/CachedObjectStorage/Memory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/CachedObjectStorage/MemoryGZip.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/CachedObjectStorage/MemoryGZip.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/CachedObjectStorage/MemorySerialized.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/CachedObjectStorage/MemorySerialized.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/CachedObjectStorage/PHPTemp.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/CachedObjectStorage/PHPTemp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/CachedObjectStorage/SQLite.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/CachedObjectStorage/SQLite.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/CachedObjectStorage/SQLite3.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/CachedObjectStorage/SQLite3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/CachedObjectStorage/Wincache.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/CachedObjectStorage/Wincache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/CachedObjectStorageFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/CachedObjectStorageFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/CalcEngine/CyclicReferenceStack.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/CalcEngine/CyclicReferenceStack.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/CalcEngine/Logger.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/CalcEngine/Logger.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Calculation.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Calculation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Calculation/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Calculation/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Calculation/DateTime.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Calculation/DateTime.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Calculation/Engineering.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Calculation/Engineering.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Calculation/Exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Calculation/Exception.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Calculation/ExceptionHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Calculation/ExceptionHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Calculation/Financial.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Calculation/Financial.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Calculation/FormulaParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Calculation/FormulaParser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Calculation/FormulaToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Calculation/FormulaToken.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Calculation/Function.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Calculation/Function.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Calculation/Functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Calculation/Functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Calculation/Logical.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Calculation/Logical.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Calculation/LookupRef.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Calculation/LookupRef.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Calculation/MathTrig.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Calculation/MathTrig.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Calculation/Statistical.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Calculation/Statistical.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Calculation/TextData.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Calculation/TextData.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Calculation/Token/Stack.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Calculation/Token/Stack.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Calculation/functionlist.txt" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Calculation/functionlist.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Cell.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Cell.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Cell/AdvancedValueBinder.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Cell/AdvancedValueBinder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Cell/DataType.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Cell/DataType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Cell/DataValidation.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Cell/DataValidation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Cell/DefaultValueBinder.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Cell/DefaultValueBinder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Cell/Hyperlink.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Cell/Hyperlink.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Cell/IValueBinder.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Cell/IValueBinder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Chart.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Chart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Chart/DataSeries.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Chart/DataSeries.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Chart/DataSeriesValues.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Chart/DataSeriesValues.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Chart/Exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Chart/Exception.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Chart/Layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Chart/Layout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Chart/Legend.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Chart/Legend.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Chart/PlotArea.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Chart/PlotArea.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Chart/Renderer/PHP Charting Libraries.txt" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Chart/Renderer/PHP Charting Libraries.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Chart/Renderer/jpgraph.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Chart/Renderer/jpgraph.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Chart/Title.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Chart/Title.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Comment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/DocumentProperties.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/DocumentProperties.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/DocumentSecurity.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/DocumentSecurity.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Exception.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/HashTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/HashTable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/IComparable.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/IComparable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/IOFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/IOFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/NamedRange.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/NamedRange.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Reader/Abstract.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Reader/Abstract.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Reader/CSV.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Reader/CSV.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Reader/DefaultReadFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Reader/DefaultReadFilter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Reader/Excel2003XML.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Reader/Excel2003XML.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Reader/Excel2007.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Reader/Excel2007.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Reader/Excel2007/Chart.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Reader/Excel2007/Chart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Reader/Excel2007/Theme.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Reader/Excel2007/Theme.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Reader/Excel5.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Reader/Excel5.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Reader/Excel5/Escher.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Reader/Excel5/Escher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Reader/Exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Reader/Exception.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Reader/Gnumeric.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Reader/Gnumeric.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Reader/HTML.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Reader/HTML.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Reader/IReadFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Reader/IReadFilter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Reader/IReader.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Reader/IReader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Reader/OOCalc.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Reader/OOCalc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Reader/SYLK.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Reader/SYLK.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/ReferenceHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/ReferenceHelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/RichText.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/RichText.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/RichText/ITextElement.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/RichText/ITextElement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/RichText/Run.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/RichText/Run.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/RichText/TextElement.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/RichText/TextElement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/CodePage.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/CodePage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/Date.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/Date.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/Drawing.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/Drawing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/Escher.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/Escher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/Escher/DgContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/Escher/DgContainer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/Escher/DgContainer/SpgrContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/Escher/DgContainer/SpgrContainer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/Escher/DggContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/Escher/DggContainer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/Escher/DggContainer/BstoreContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/Escher/DggContainer/BstoreContainer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/Escher/DggContainer/BstoreContainer/BSE.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/Escher/DggContainer/BstoreContainer/BSE.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/Escher/DggContainer/BstoreContainer/BSE/Blip.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/Escher/DggContainer/BstoreContainer/BSE/Blip.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/Excel5.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/Excel5.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/File.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/File.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/Font.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/Font.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/JAMA/CHANGELOG.TXT" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/JAMA/CHANGELOG.TXT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/JAMA/CholeskyDecomposition.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/JAMA/CholeskyDecomposition.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/JAMA/EigenvalueDecomposition.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/JAMA/EigenvalueDecomposition.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/JAMA/LUDecomposition.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/JAMA/LUDecomposition.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/JAMA/Matrix.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/JAMA/Matrix.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/JAMA/QRDecomposition.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/JAMA/QRDecomposition.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/JAMA/SingularValueDecomposition.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/JAMA/SingularValueDecomposition.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/JAMA/utils/Error.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/JAMA/utils/Error.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/JAMA/utils/Maths.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/JAMA/utils/Maths.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/OLE.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/OLE.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/OLE/ChainedBlockStream.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/OLE/ChainedBlockStream.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/OLE/PPS.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/OLE/PPS.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/OLE/PPS/File.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/OLE/PPS/File.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/OLE/PPS/Root.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/OLE/PPS/Root.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/OLERead.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/OLERead.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/PCLZip/gnu-lgpl.txt" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/PCLZip/gnu-lgpl.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/PCLZip/pclzip.lib.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/PCLZip/pclzip.lib.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/PCLZip/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/PCLZip/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/PasswordHasher.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/PasswordHasher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/String.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/String.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/TimeZone.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/TimeZone.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/XMLWriter.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/XMLWriter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/ZipArchive.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/ZipArchive.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/ZipStreamWrapper.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/ZipStreamWrapper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/trend/bestFitClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/trend/bestFitClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/trend/exponentialBestFitClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/trend/exponentialBestFitClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/trend/linearBestFitClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/trend/linearBestFitClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/trend/logarithmicBestFitClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/trend/logarithmicBestFitClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/trend/polynomialBestFitClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/trend/polynomialBestFitClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/trend/powerBestFitClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/trend/powerBestFitClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/trend/trendClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Shared/trend/trendClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Style.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Style.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Style/Alignment.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Style/Alignment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Style/Border.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Style/Border.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Style/Borders.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Style/Borders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Style/Color.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Style/Color.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Style/Conditional.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Style/Conditional.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Style/Fill.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Style/Fill.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Style/Font.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Style/Font.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Style/NumberFormat.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Style/NumberFormat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Style/Protection.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Style/Protection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Style/Supervisor.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Style/Supervisor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Worksheet.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Worksheet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Worksheet/AutoFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Worksheet/AutoFilter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Worksheet/AutoFilter/Column.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Worksheet/AutoFilter/Column.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Worksheet/BaseDrawing.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Worksheet/BaseDrawing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Worksheet/CellIterator.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Worksheet/CellIterator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Worksheet/ColumnDimension.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Worksheet/ColumnDimension.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Worksheet/Drawing.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Worksheet/Drawing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Worksheet/Drawing/Shadow.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Worksheet/Drawing/Shadow.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Worksheet/HeaderFooter.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Worksheet/HeaderFooter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Worksheet/HeaderFooterDrawing.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Worksheet/HeaderFooterDrawing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Worksheet/MemoryDrawing.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Worksheet/MemoryDrawing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Worksheet/PageMargins.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Worksheet/PageMargins.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Worksheet/PageSetup.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Worksheet/PageSetup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Worksheet/Protection.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Worksheet/Protection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Worksheet/Row.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Worksheet/Row.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Worksheet/RowDimension.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Worksheet/RowDimension.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Worksheet/RowIterator.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Worksheet/RowIterator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Worksheet/SheetView.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Worksheet/SheetView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/WorksheetIterator.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/WorksheetIterator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Abstract.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Abstract.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/CSV.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/CSV.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel2007.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel2007.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel2007/Chart.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel2007/Chart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel2007/Comments.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel2007/Comments.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel2007/ContentTypes.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel2007/ContentTypes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel2007/DocProps.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel2007/DocProps.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel2007/Drawing.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel2007/Drawing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel2007/Rels.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel2007/Rels.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel2007/StringTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel2007/StringTable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel2007/Style.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel2007/Style.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel2007/Theme.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel2007/Theme.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel2007/Workbook.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel2007/Workbook.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel2007/Worksheet.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel2007/Worksheet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel2007/WriterPart.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel2007/WriterPart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel5.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel5.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel5/BIFFwriter.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel5/BIFFwriter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel5/Escher.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel5/Escher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel5/Font.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel5/Font.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel5/Parser.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel5/Parser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel5/Workbook.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel5/Workbook.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel5/Worksheet.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel5/Worksheet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel5/Xf.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Excel5/Xf.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/Exception.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/HTML.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/HTML.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/IWriter.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/IWriter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/PDF.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/PDF.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/PDF/Core.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/PDF/Core.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/PDF/DomPDF.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/PDF/DomPDF.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/PDF/mPDF.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/PDF/mPDF.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/PDF/tcPDF.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/Writer/PDF/tcPDF.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/cs/config" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/cs/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/cs/functions" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/cs/functions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/da/config" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/da/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/da/functions" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/da/functions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/de/config" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/de/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/de/functions" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/de/functions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/en/uk/config" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/en/uk/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/es/config" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/es/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/es/functions" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/es/functions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/fi/config" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/fi/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/fi/functions" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/fi/functions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/fr/config" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/fr/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/fr/functions" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/fr/functions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/hu/config" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/hu/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/hu/functions" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/hu/functions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/it/config" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/it/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/it/functions" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/it/functions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/nl/config" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/nl/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/nl/functions" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/nl/functions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/no/config" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/no/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/no/functions" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/no/functions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/pl/config" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/pl/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/pl/functions" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/pl/functions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/pt/br/config" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/pt/br/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/pt/br/functions" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/pt/br/functions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/pt/config" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/pt/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/pt/functions" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/pt/functions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/ru/config" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/ru/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/ru/functions" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/ru/functions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/sv/config" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/sv/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/sv/functions" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/sv/functions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/tr/config" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/tr/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/tr/functions" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/phpexcel/PHPExcel/locale/tr/functions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/queries/role.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/queries/role.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/queries/wojewodztwa.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/queries/wojewodztwa.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/smtpphpmailer/class.phpmailer.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/smtpphpmailer/class.phpmailer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/smtpphpmailer/class.pop3.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/smtpphpmailer/class.pop3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/smtpphpmailer/class.smtp.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/smtpphpmailer/class.smtp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-ar.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-ar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-br.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-br.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-ca.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-ca.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-ch.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-ch.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-cz.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-cz.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-de.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-de.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-dk.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-dk.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-es.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-es.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-et.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-et.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-fi.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-fi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-fo.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-fo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-fr.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-fr.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-hu.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-hu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-it.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-it.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-ja.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-ja.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-nl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-nl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-no.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-no.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-pl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-pl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-ro.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-ro.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-ru.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-ru.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-se.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-se.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-sk.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-sk.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-tr.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-tr.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-zh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-zh_cn.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/smtpphpmailer/language/phpmailer.lang-zh_cn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/smtpphpmailer/mail-smtp.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/smtpphpmailer/mail-smtp.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/classes/uzytkownik.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/classes/uzytkownik.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/db_access.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/db_access.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/modules.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/modules.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/action.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/action.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/category-all-options.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/category-all-options.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/category-js-scripts.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/category-js-scripts.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/close-ajax.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/close-ajax.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/filters.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/filters.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/firmy-js-scripts.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/firmy-js-scripts.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/forms/zlecenie-historia-numer-seryjny.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/forms/zlecenie-historia-numer-seryjny.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/forms/zlecenie-nowy-numer-seryjny.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/forms/zlecenie-nowy-numer-seryjny.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/forms/zlecenie-numer-seryjny-form.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/forms/zlecenie-numer-seryjny-form.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/forms/zlecenie-numer-seryjny-zablokowany.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/forms/zlecenie-numer-seryjny-zablokowany.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/hidden-tr.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/hidden-tr.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/logowanie-new.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/logowanie-new.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/logowanie-reset.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/logowanie-reset.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/logowanie.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/logowanie.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/naglowek-logowanie.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/naglowek-logowanie.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/naglowek.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/naglowek.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/naglowek_drukuj.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/naglowek_drukuj.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/nav.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/nav.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/panel-boczny/firmy.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/panel-boczny/firmy.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/panel-boczny/uzytkownicy.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/panel-boczny/uzytkownicy.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/pola-formularzy/actions_history.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/pola-formularzy/actions_history.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/pola-formularzy/dane-klienta.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/pola-formularzy/dane-klienta.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/pola-formularzy/haslo-generator.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/pola-formularzy/haslo-generator.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/pola-formularzy/lista-kategoria-urzadzenia.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/pola-formularzy/lista-kategoria-urzadzenia.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/pola-formularzy/lista-nazw-urzadzen.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/pola-formularzy/lista-nazw-urzadzen.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/pola-formularzy/lista-wymaganych-parametrow.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/pola-formularzy/lista-wymaganych-parametrow.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/pola-formularzy/parts_purchases.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/pola-formularzy/parts_purchases.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/pola-formularzy/parts_purchases_realization.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/pola-formularzy/parts_purchases_realization.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/pola-formularzy/required-checkbox.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/pola-formularzy/required-checkbox.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/pola-formularzy/rozmieszczenie_czesci.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/pola-formularzy/rozmieszczenie_czesci.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/pola-formularzy/uprawnienia.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/pola-formularzy/uprawnienia.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/pola-formularzy/warranty_service.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/pola-formularzy/warranty_service.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/przerwa_techniczna.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/przerwa_techniczna.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/pulpit.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/pulpit.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/show-table.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/show-table.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/show-two-tables.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/show-two-tables.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/show.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/show.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/stopka.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/stopka.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/stopka_drukuj.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/stopka_drukuj.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/tabelka-paginacji.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/tabelka-paginacji.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/templates/tooltip-zamowienia.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/templates/tooltip-zamowienia.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/ajax.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/basket-zamowienia.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/basket-zamowienia.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/categories.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/categories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/cookie-plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/cookie-plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/generator-hasla.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/generator-hasla.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/items.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/items.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-1.10.2.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery-1.10.2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-ui-1.10.3.custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery-ui-1.10.3.custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jsfunction.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jsfunction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/plugins/chosen.jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/chosen.jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/plugins/datapicker-lang/jquery.ui.datepicker-pl.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/datapicker-lang/jquery.ui.datepicker-pl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/plugins/jquery-ui-timepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/jquery-ui-timepicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/plugins/jquery.notify.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/jquery.notify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/plugins/jquery.qtip.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/jquery.qtip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/plugins/jquery.ui.core.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/jquery.ui.core.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/plugins/jquery.ui.datepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/jquery.ui.datepicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/plugins/jquery.ui.mouse.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/jquery.ui.mouse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/plugins/jquery.ui.slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/jquery.ui.slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/plugins/jquery.ui.widget.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/jquery.ui.widget.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/urzadzenia.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/urzadzenia.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/zlecenia.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/zlecenia.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noisrev_ofniphp.php" beforeDir="false" afterPath="$PROJECT_DIR$/noisrev_ofniphp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php.ini" beforeDir="false" afterPath="$PROJECT_DIR$/php.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/importFiles/AI, AIS, WS.ods" beforeDir="false" afterPath="$PROJECT_DIR$/public/importFiles/AI, AIS, WS.ods" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/importFiles/AI, AIS, WS.xls" beforeDir="false" afterPath="$PROJECT_DIR$/public/importFiles/AI, AIS, WS.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/importFiles/numery_seryjne.xls" beforeDir="false" afterPath="$PROJECT_DIR$/public/importFiles/numery_seryjne.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/importFiles/numery_seryjne.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/public/importFiles/numery_seryjne.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/importFiles/testWolf.xls" beforeDir="false" afterPath="$PROJECT_DIR$/public/importFiles/testWolf.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sqle/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/sqle/.htaccess" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1656560764">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="php" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PHP" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="php" value="756" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PHP" value="756" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="urzadzenia.class.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/include/classes/modules/urzadzenia.class.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/classes/modules/zlecenia.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="73" column="305" selection-start-line="73" selection-start-column="305" selection-end-line="73" selection-end-column="305" />
+            <state relative-caret-position="259">
+              <caret line="79" column="14" selection-start-line="79" selection-start-column="14" selection-end-line="79" selection-end-column="14" />
               <folding>
-                <element signature="e#6#217#0#PHP" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="modul_bazowy.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/classes/modules/modul_bazowy.class.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/include/classes/modules/urzadzenia.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="733" column="9" selection-start-line="733" selection-start-column="9" selection-end-line="733" selection-end-column="9" />
+            <state relative-caret-position="123">
+              <caret line="73" column="310" selection-start-line="73" selection-start-column="310" selection-end-line="73" selection-end-column="310" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#b#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
-                <element signature="e#228#234#0" expanded="true" />
-                <element signature="e#234#240#0" expanded="true" />
-                <element signature="e#240#246#0" expanded="true" />
-                <element signature="e#246#252#0" expanded="true" />
-                <element signature="e#252#258#0" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#b#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#b#0;n#!!top" expanded="true" />
-                <element signature="e#240#246#0" expanded="true" />
-                <element signature="e#246#252#0" expanded="true" />
-                <element signature="e#252#258#0" expanded="true" />
-                <element signature="e#258#264#0" expanded="true" />
-                <element signature="e#264#270#0" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#1;n#b#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
+                <element signature="e#6#217#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,15 +746,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>$this-&gt;Tabela</find>
-      <find>pierwsze uru</find>
-      <find>setup_zero</find>
-      <find>ZeroSetupItem</find>
-      <find>last</find>
-      <find>Addres</find>
-      <find>Adres</find>
-      <find>Numer Seryjny</find>
-      <find>getSele</find>
       <find>szczegoly</find>
       <find>pierwsze</find>
       <find>Dane zainstalowanych urządzeń</find>
@@ -94,13 +760,22 @@
       <find>SetupItem</find>
       <find>akcjaDodawa</find>
       <find>amount</find>
-      <find>import</find>
       <find>getAction</find>
-      <find>put</find>
       <find>GetActions</find>
       <find>kzu</find>
       <find>items</find>
       <find>var_dump</find>
+      <find>asA</find>
+      <find>$this-&gt;Tabela</find>
+      <find>lastInsert</find>
+      <find>import</find>
+      <find>lastI</find>
+      <find>getvalue</find>
+      <find>companyId</find>
+      <find>niepopra</find>
+      <find>put</find>
+      <find>dane uż</find>
+      <find>opis</find>
     </findStrings>
     <replaceStrings>
       <replace>Rodzaj gazu</replace>
@@ -131,9 +806,9 @@
         <option value="$PROJECT_DIR$/include/classes/panel.class.php" />
         <option value="$PROJECT_DIR$/include/classes/modules/numery_seryjne.class.php" />
         <option value="$PROJECT_DIR$/include/classes/modules/ustawienia.class.php" />
-        <option value="$PROJECT_DIR$/include/classes/modules/zlecenia.class.php" />
         <option value="$PROJECT_DIR$/include/classes/modules/firmy.class.php" />
         <option value="$PROJECT_DIR$/include/classes/modules/modul_bazowy.class.php" />
+        <option value="$PROJECT_DIR$/include/classes/modules/zlecenia.class.php" />
         <option value="$PROJECT_DIR$/include/classes/modules/urzadzenia.class.php" />
       </list>
     </option>
@@ -144,9 +819,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-112" />
-    <option name="y" value="276" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="138" />
     <option name="width" value="1426" />
     <option name="height" value="737" />
   </component>
@@ -156,43 +830,44 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Wolf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Wolf" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wolf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wolf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Wolf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Wolf" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="include" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wolf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wolf" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Wolf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Wolf" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="include" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="classes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wolf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wolf" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Wolf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Wolf" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="include" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="classes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wolf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wolf" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../2017/fundacjaPro/httpdocs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -221,225 +896,72 @@
       <workItem from="1539937498905" duration="1538000" />
       <workItem from="1540201200259" duration="10153000" />
       <workItem from="1540275655070" duration="21558000" />
+      <workItem from="1540362959151" duration="10883000" />
+      <workItem from="1540381698825" duration="4686000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52226000" />
+    <option name="totallyTimeSpent" value="67795000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-112" y="276" width="1426" height="737" extended-state="0" />
+    <frame x="-1" y="0" width="1442" height="875" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18820225" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32947233" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19368723" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32947233" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3288948" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3288948" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3288948" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/include/classes/modules/ustawienia.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/classes/modules/urzadzenia.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="70" column="12" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="67" />
-          <folding>
-            <element signature="e#6#217#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/classes/modules/modul_bazowy.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#b#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="e#228#234#0" expanded="true" />
-            <element signature="e#234#240#0" expanded="true" />
-            <element signature="e#240#246#0" expanded="true" />
-            <element signature="e#246#252#0" expanded="true" />
-            <element signature="e#252#258#0" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#b#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#b#0;n#!!top" expanded="true" />
-            <element signature="e#240#246#0" expanded="true" />
-            <element signature="e#246#252#0" expanded="true" />
-            <element signature="e#252#258#0" expanded="true" />
-            <element signature="e#258#264#0" expanded="true" />
-            <element signature="e#264#270#0" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#1;n#b#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/classes/modules/firmy.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4454">
-          <caret line="262" column="13" lean-forward="true" selection-start-line="262" selection-start-column="13" selection-end-line="262" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/classes/modules/ustawienia.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/classes/modules/modul_bazowy.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35258">
-          <caret line="2074" column="41" selection-start-line="2074" selection-start-column="41" selection-end-line="2074" selection-end-column="53" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#b#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="e#228#234#0" expanded="true" />
-            <element signature="e#234#240#0" expanded="true" />
-            <element signature="e#240#246#0" expanded="true" />
-            <element signature="e#246#252#0" expanded="true" />
-            <element signature="e#252#258#0" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#b#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#b#0;n#!!top" expanded="true" />
-            <element signature="e#240#246#0" expanded="true" />
-            <element signature="e#246#252#0" expanded="true" />
-            <element signature="e#252#258#0" expanded="true" />
-            <element signature="e#258#264#0" expanded="true" />
-            <element signature="e#264#270#0" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#1;n#b#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/classes/modules/urzadzenia.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10897">
-          <caret line="641" column="16" selection-start-line="641" selection-start-column="16" selection-end-line="641" selection-end-column="16" />
-          <folding>
-            <element signature="e#6#217#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/classes/modules/ustawienia.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/classes/modules/modul_bazowy.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35258">
-          <caret line="2074" column="41" selection-start-line="2074" selection-start-column="41" selection-end-line="2074" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/classes/modules/urzadzenia.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10897">
-          <caret line="641" column="16" selection-start-line="641" selection-start-column="16" selection-end-line="641" selection-end-column="16" />
-          <folding>
-            <element signature="e#6#217#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/classes/modules/ustawienia.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/classes/mysql.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4301">
-          <caret line="253" column="20" selection-start-line="253" selection-start-column="20" selection-end-line="253" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/classes/phpexcel/PHPExcel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14127">
-          <caret line="831" column="32" selection-start-line="831" selection-start-column="32" selection-end-line="831" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/classes/modules/generate_excel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2754">
-          <caret line="162" column="35" selection-start-line="162" selection-start-column="32" selection-end-line="162" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/classes/modules/urzadzenia.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11101">
-          <caret line="653" lean-forward="true" selection-start-line="653" selection-end-line="653" />
-          <folding>
-            <element signature="e#6#217#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/db_access.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -496,13 +1018,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/classes/mysql.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4182">
-          <caret line="253" column="20" selection-start-line="253" selection-start-column="20" selection-end-line="253" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/classes/modules/import_excel.php" />
     <entry file="file://$PROJECT_DIR$/include/classes/ajax/configure.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -515,13 +1030,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/classes/modules/uzytkownicy.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="174" column="67" selection-start-line="174" selection-start-column="67" selection-end-line="174" selection-end-column="67" />
         </state>
       </provider>
     </entry>
@@ -668,11 +1176,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="70" />
-          <folding>
-            <element signature="e#6#168#0#PHP" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#2;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -680,40 +1183,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="89" column="25" selection-start-line="89" selection-start-column="25" selection-end-line="89" selection-end-column="25" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/classes/modules/zlecenia.class.php">
+    <entry file="file://$PROJECT_DIR$/include/classes/mysql.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="80" column="42" selection-start-line="80" selection-start-column="42" selection-end-line="80" selection-end-column="42" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="349" column="13" selection-start-line="349" selection-start-column="13" selection-end-line="349" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/classes/modules/ustawienia.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        <state relative-caret-position="389">
+          <caret line="98" column="152" selection-start-line="98" selection-start-column="152" selection-end-line="98" selection-end-column="152" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/classes/modules/numery_seryjne.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="676" column="44" selection-start-line="676" selection-start-column="44" selection-end-line="676" selection-end-column="49" />
+        <state relative-caret-position="318">
+          <caret line="664" column="24" selection-start-line="664" selection-start-column="24" selection-end-line="664" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/classes/modules/uzytkownicy.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="174" column="67" selection-start-line="174" selection-start-column="67" selection-end-line="174" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/classes/modules/firmy.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="266" column="39" selection-start-line="266" selection-start-column="39" selection-end-line="266" selection-end-column="138" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/classes/modules/modul_bazowy.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="733" column="9" selection-start-line="733" selection-start-column="9" selection-end-line="733" selection-end-column="9" />
+        <state relative-caret-position="191">
+          <caret line="2072" column="65" selection-start-line="2072" selection-start-column="65" selection-end-line="2072" selection-end-column="65" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
@@ -724,22 +1242,22 @@
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#b#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="e#228#234#0" expanded="true" />
-            <element signature="e#234#240#0" expanded="true" />
-            <element signature="e#240#246#0" expanded="true" />
-            <element signature="e#246#252#0" expanded="true" />
-            <element signature="e#252#258#0" expanded="true" />
+            <element signature="e#245#251#0" expanded="true" />
+            <element signature="e#251#257#0" expanded="true" />
+            <element signature="e#257#263#0" expanded="true" />
+            <element signature="e#263#269#0" expanded="true" />
+            <element signature="e#269#275#0" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#b#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#b#0;n#!!top" expanded="true" />
-            <element signature="e#240#246#0" expanded="true" />
-            <element signature="e#246#252#0" expanded="true" />
-            <element signature="e#252#258#0" expanded="true" />
-            <element signature="e#258#264#0" expanded="true" />
-            <element signature="e#264#270#0" expanded="true" />
+            <element signature="e#286#292#0" expanded="true" />
+            <element signature="e#292#298#0" expanded="true" />
+            <element signature="e#298#304#0" expanded="true" />
+            <element signature="e#304#310#0" expanded="true" />
+            <element signature="e#310#316#0" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#1;n#b#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
@@ -749,17 +1267,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/classes/modules/firmy.class.php">
+    <entry file="file://$PROJECT_DIR$/include/classes/modules/zlecenia.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="274" selection-start-line="274" selection-end-line="275" selection-end-column="46" />
+        <state relative-caret-position="259">
+          <caret line="79" column="14" selection-start-line="79" selection-start-column="14" selection-end-line="79" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/classes/modules/urzadzenia.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="73" column="305" selection-start-line="73" selection-start-column="305" selection-end-line="73" selection-end-column="305" />
+        <state relative-caret-position="123">
+          <caret line="73" column="310" selection-start-line="73" selection-start-column="310" selection-end-line="73" selection-end-column="310" />
           <folding>
             <element signature="e#6#217#0#PHP" expanded="true" />
           </folding>

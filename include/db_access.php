@@ -3,7 +3,7 @@
        $BazaParametry = array(
             'host' => 'localhost',
             'schema' => 'wolf',
-            'user' => 'phpmyadmin',
+            'user' => 'root',
             'password' => 'artplus'
         );
 ?>
